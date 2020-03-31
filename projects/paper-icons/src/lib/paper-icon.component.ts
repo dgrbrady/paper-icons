@@ -10,14 +10,14 @@ import {
 import { PaperIconsRegistry } from "./paper-icons.registry.service";
 
 @Component({
-  selector: "paper-icons",
+  selector: "paper-icon",
   template: `
     <ng-content></ng-content>
   `,
   styles: [":host::ng-deep svg{width: 50px; height: 50px}"],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class PaperIconsComponent {
+export class PaperIconComponent {
   private svgIcon: SVGElement;
 
   @Input()

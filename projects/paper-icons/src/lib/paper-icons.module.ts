@@ -1,12 +1,9 @@
-import { NgModule } from '@angular/core';
-import { PaperIconsComponent } from './paper-icons.component';
-
-
+import { NgModule } from "@angular/core";
+import { PaperIconComponent } from "./paper-icon.component";
 
 @NgModule({
-  declarations: [PaperIconsComponent],
-  imports: [
-  ],
-  exports: [PaperIconsComponent]
+  declarations: [PaperIconComponent],
+  imports: [],
+  exports: [PaperIconComponent]
 })
-export class PaperIconsModule { }
+export class PaperIconsModule {}
