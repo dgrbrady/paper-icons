@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "generate-icons": "svg-to-ts -s projects/paper-icons/icons -o projects/paper-icons/src/lib -f paper-icons -p paperIcons -t paperIcon -i PaperIcon"
+    "generate-icons": "svg-to-ts -s projects/paper-icons/icons/**/*.svg -o projects/paper-icons/src/lib -f paper-icons -p paperIcons -t paperIcon -i PaperIcon"
   },
   "private": true,
   "dependencies": {
