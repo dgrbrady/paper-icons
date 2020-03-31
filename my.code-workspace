@@ -1,0 +1,206 @@
+{
+  "folders": [
+    {
+      "path": "/Users/dbrady/Code/paper-icons"
+    }
+  ],
+  "settings": {
+    // EDITOR CONFIGS
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "angulardoc.directoryFilter": [
+      "!typings",
+      "!node_modules",
+      "!.vscode",
+      "ui"
+    ],
+    "vscode_custom_css.imports": [
+      "file:///Users/dbrady/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.9/synthwave-x-fluoromachine.css"
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.tslint": true,
+      "source.organizeImports": true
+    },
+    "editor.rulers": [120],
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorCustomizations": {
+      "editorWarning.foreground": "#ffcc00",
+      "editorError.foreground": "#fc199a",
+      "editorRuler.foreground": "#fc199a",
+      "diffEditor.removedTextBorder": "#fc199a",
+      "diffEditor.insertedTextBorder": "#61e2ff",
+      "editorSuggestWidget.border": "#8a2dc0",
+      "editorSuggestWidget.selectedBackground": "#ffcc004f",
+      "terminal.selectionBackground": "#ffcc004f",
+      "editor.selectionHighlightBackground": "#ffcc0027"
+    },
+    "editor.tokenColorCustomizations": {
+      "[Synthwave x Fluoromachine]": {
+        "textMateRules": [
+          {
+            "name": "Template String",
+            "scope": [
+              "punctuation.definition.string.template.begin.ts",
+              "punctuation.definition.string.template.end.ts",
+              "punctuation.definition.template-expression.begin",
+              "punctuation.definition.template-expression.end",
+              "punctuation.definition.string",
+              "string.quoted"
+            ],
+            "settings": {
+              "foreground": "#17c001"
+            }
+          },
+          {
+            "name": "Typescript Decorators",
+            "scope": ["meta.decorator.ts"],
+            "settings": {
+              "foreground": "#ffcc00"
+            }
+          },
+          {
+            "name": "Parameters/Arguments/Types",
+            "scope": [
+              "variable.parameter",
+              "variable.other.readwrite.ts",
+              "meta.type.parameters.ts"
+            ],
+            "settings": {
+              "foreground": "#fc199a"
+            }
+          },
+          {
+            "name": "Comments",
+            "scope": ["comment.block.documentation.ts"],
+            "settings": {
+              "foreground": "#e2dfdfcb"
+            }
+          },
+          {
+            "name": "Type Annotation",
+            "scope": ["entity.name.type.ts", "support.type.primitive.ts"],
+            "settings": {
+              "foreground": "#00cbda"
+            }
+          },
+          {
+            "name": "Object Properties",
+            "scope": [
+              "variable.object.property.ts",
+              "variable.other.property.ts"
+            ],
+            "settings": {
+              "foreground": "#fc199a"
+            }
+          },
+          {
+            "name": "Function Declarations",
+            "scope": ["entity.name.function.ts"],
+            "settings": {
+              "foreground": "#ffcc00"
+            }
+          },
+          {
+            "name": "Keyworlds",
+            "scope": ["keyword.control", "storage.modifier"],
+            "settings": {
+              "foreground": "#ffffff"
+            }
+          }
+        ]
+      }
+    },
+    // Icons
+    // "material-icon-theme.files.associations": {"*.facade.ts": "facade"},
+    "files.eol": "\n",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "files.trimTrailingWhitespace": true,
+    "editor.foldingStrategy": "indentation",
+    "search.exclude": {
+      //when searching for a file exclude directory
+      "/node_modules": true,
+      "/bower_components": true
+    },
+    // PRETTIER CONFIGS
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // PYTHON CONFIGS
+    // "python.pythonPath": "C:\\Program Files\\Python27\\python.exe",
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Args": ["--max-line-length=100", "--ignore=E303"],
+    "python.linting.pylintEnabled": false,
+    // MARKUP CONFIGS
+
+    // VIM CONFIGS
+    "vim.visualstar": true,
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "w"],
+        "commands": ["workbench.action.files.save"]
+      },
+      {
+        "before": ["<leader>", "q"],
+        "commands": [":q"]
+      },
+      {
+        "before": ["<leader>", "o"],
+        "commands": ["sftp.list"]
+      },
+      {
+        "before": ["<leader>", "s", "b"],
+        "commands": ["workbench.action.toggleSidebarVisibility"]
+      },
+      {
+        "before": ["<leader>", "s", "s", "h"],
+        "commands": ["sftp.openConnectInTerminal"]
+      },
+      {
+        "before": ["z", "a"],
+        "commands": ["editor.foldRecursively"]
+      },
+      {
+        "before": [">"],
+        "commands": ["editor.action.indentLines"]
+      },
+      {
+        "before": ["<"],
+        "commands": ["editor.action.outdentLines"]
+      }
+    ],
+    "vim.handleKeys": {
+      "<C-d>": false,
+      "<C-c>": false,
+      "<C-v>": false
+    },
+    "vim.foldfix": true,
+    "vim.insertModeKeyBindingsNonRecursive": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "html-css-class-completion.includeGlobPattern": "**/*.{css,html,ts,scss,js}",
+    "testExplorer.addToEditorContextMenu": true,
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "prettier.singleQuote": true,
+    "tslint.rulesDirectory": "./ui/node_modules/codelyzer",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "html.mirrorCursorOnMatchingTag": false,
+    "gitlab.instanceUrl": "https://nexus.aws.cssp.io",
+    "gitlab.ignoreCertificateErrors": true,
+    "gitlab.showPipelineUpdateNotifications": true,
+    "gitlab.enableExperimentalFeatures": true,
+    "angulardoc.fileFilter": ["**/!(*.*spec).ts"]
+  }
+}
