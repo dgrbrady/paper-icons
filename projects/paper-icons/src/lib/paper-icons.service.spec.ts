@@ -1,12 +1,11 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed } from "@angular/core/testing";
+import { PaperIconsRegistry } from "./paper-icons.registry.service";
 
-import { PaperIconsService } from './paper-icons.service';
-
-describe('PaperIconsService', () => {
+describe("PaperIconsService", () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
-  it('should be created', () => {
-    const service: PaperIconsService = TestBed.get(PaperIconsService);
+  it("should be created", () => {
+    const service: PaperIconsRegistry = TestBed.get(PaperIconsRegistry);
     expect(service).toBeTruthy();
   });
 });
