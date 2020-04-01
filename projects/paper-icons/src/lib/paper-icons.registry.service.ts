@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { PaperIcon } from "./paper-icons";
+import { PaperIcon } from "./paper-icons.types";
 
 @Injectable({
   providedIn: "root"

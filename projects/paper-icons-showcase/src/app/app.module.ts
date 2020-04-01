@@ -1,11 +1,13 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import {
-  paperIconsAllorNothingP1,
+  PaperIcons,
   PaperIconsModule,
-  PaperIconsRegistry
+  PaperIconsRegistry,
+  utils
 } from "projects/paper-icons/src/public-api";
 import { AppComponent } from "./app.component";
+// import { paperIcon } from 'projects/paper-icons/src/lib/paper-icons';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +17,9 @@ import { AppComponent } from "./app.component";
 })
 export class AppModule {
   constructor(private paperIconRegistry: PaperIconsRegistry) {
-    this.paperIconRegistry.registerIcons([paperIconsAllorNothingP1]);
+    const icons = Object.values(PaperIcons);
+    if (utils.hasPaperIcons(icons)) {
+      this.paperIconRegistry.registerIcons(icons);
+    }
   }
 }

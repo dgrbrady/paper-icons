@@ -5,7 +5,8 @@ import {
   ElementRef,
   Inject,
   Input,
-  Optional
+  Optional,
+  Renderer2
 } from "@angular/core";
 import { PaperIconsRegistry } from "./paper-icons.registry.service";
 
@@ -14,7 +15,7 @@ import { PaperIconsRegistry } from "./paper-icons.registry.service";
   template: `
     <ng-content></ng-content>
   `,
-  styles: [":host::ng-deep svg{width: 50px; height: 50px}"],
+  styles: [":host::ng-deep svg{width: 40px; height: 40px}"],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PaperIconComponent {
@@ -25,19 +26,20 @@ export class PaperIconComponent {
     if (this.svgIcon) {
       this.element.nativeElement.removeChild(this.svgIcon);
     }
-    const svgData = this.dinosaurIconRegistry.getIcon(iconName);
+    const svgData = this.paperIconRegistry.getIcon(iconName);
     this.svgIcon = this.svgElementFromString(svgData);
-    this.element.nativeElement.appendChild(this.svgIcon);
+    this.renderer2.appendChild(this.element.nativeElement, this.svgIcon);
   }
 
   constructor(
     private element: ElementRef,
-    private dinosaurIconRegistry: PaperIconsRegistry,
-    @Optional() @Inject(DOCUMENT) private document: any
+    private paperIconRegistry: PaperIconsRegistry,
+    private renderer2: Renderer2,
+    @Optional() @Inject(DOCUMENT) private document: Document
   ) {}
 
   private svgElementFromString(svgContent: string): SVGElement {
-    const div = this.document.createElement("DIV");
+    const div = this.renderer2.createElement("div");
     div.innerHTML = svgContent;
     return (
       div.querySelector("svg") ||
