@@ -20,6 +20,7 @@ import { PaperIconsRegistry } from './paper-icons.registry.service';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PaperIconComponent implements OnInit {
+  private document: Document;
   private svgIcon: SVGElement;
 
   @Input() size: 'small' | 'medium' | 'large' = 'large';
@@ -38,8 +39,11 @@ export class PaperIconComponent implements OnInit {
     private element: ElementRef,
     private paperIconRegistry: PaperIconsRegistry,
     private renderer2: Renderer2,
-    @Optional() @Inject(DOCUMENT) private document: Document,
-  ) {}
+    @Optional() @Inject(DOCUMENT) document: any,
+  ) {
+    // https://stackoverflow.com/questions/49513359/could-not-resolve-type-document-in-angular5
+    this.document = document as Document;
+  }
 
   ngOnInit() {
     const observer = new MutationObserver(mutations => {
