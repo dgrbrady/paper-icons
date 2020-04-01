@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Blimp_Ticket.svg)"/>
+<defs>
+<pattern id="pattern-Blimp_Ticket.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Blimp_Ticket.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Blimp_Ticket.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAflBMVEUAAACc//8xwt4AabVozeZEZZEAis4AbbVU1ulrr8hwssgAdL0FhMV46vQIZKdVosJozuYAf8U3XY40nc0QMWsZGFo0m81z5/cQPoAQKGsZOXMxRXOU+/8MPIMQQoMIVZwAYa0hZ5gIba0AgsVKb5gIks4pmr0pttZ7xtaU8/eIXgHCAAAAAXRSTlMAQObYZgAAAR1JREFUeF6N0OeKBCEUhNE1dc49aXNO7/+CW2KzBa0X5/4TDnyFN9Idd2+J+bvKUWbc/c8HZN45pVSo513TBJl3lOK+zalfSqHba60r1nOuQt1Byvs2p1FXr5Divs1pOPXNutBFvscj1PNOo04Z7aPTfgqgsI+uh2u+IIUu3UNd13dXOAV3xNF5mHDV3h2cc03C6Z27FMVs2nVK7IudMaVSU3ofXQHXlus0ifsAD3ADXFGW5RrvY/gNboArWmirrI33BfkENwRn5pMF3O3jHwJuDltPNtpH+e9maKu4L5LvAy647vN8HkfuS9SD67plHNmNJJ1ZlqTjr8PNcIYuKR9ffN1/1S2dUA+OXblOl5E5x/oz92Wkd/mjy57I/gDxLSXypQb/awAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

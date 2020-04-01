@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Elevator_Key_XNaut_TTYD_red.svg)"/>
+<defs>
+<pattern id="pattern-Elevator_Key_XNaut_TTYD_red.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Elevator_Key_XNaut_TTYD_red.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Elevator_Key_XNaut_TTYD_red.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAP1BMVEUAAABKAClSBC1aCDFtGDS1SUqtRUKRMD9SBDGkPERrFDGUMD+UMkGtPUKEJDprFzFzGjWcNUJzGDpjDDGMLjmjToAsAAAAAXRSTlMAQObYZgAAAPdJREFUeAGl0AduQzEMg+EMemTP+5+1VvI/lJkqUGFG7wtpe/a/mY/5m0PmbrFMJE6lKJO47xI3D/dV4mrJJb2ZxGWS8zW1MV8l54uPMVJDvnG3pD5nVmS+OuQauPF2d7Hbjm874L6YNFdj17ckAp8ktbE71ANueqoGxCFxDuXueCsY28mJ394c+1Ms4sq48w08O2rDyUovAS/upLt0F6NGHnD8EWnu7cvcN5rc+a2bkXDgXSzPzmey/jq1lzyT5riYOZf+fiHduWQ0RV0v7lziFGGkv3FIUVsP5t7ITm0LiHsvhbzgcolLJC6TTbhMkpdLXD45S+YHV9AKS5B5D5sAAAAASUVORK5CYII="/>
+</defs>
+</svg>

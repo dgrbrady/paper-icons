@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Elevator_Key_RS_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Elevator_Key_RS_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Elevator_Key_RS_TTYD.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Elevator_Key_RS_TTYD.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAS1BMVEUAAABrJAjNcgL/rgCcSwX/mgBzKAj3kgC1XwScUgX///+cSQDNgAL/5KrNtqzhgQCUQQCMOQChTgWlUQDDaQDQdALYeQCcbVrmggDxk9vpAAAAAXRSTlMAQObYZgAAAQBJREFUeF7V08mOxCAMBNApG7L13rP+/5cOVllEGYw4zaHrQg5PuGSUt9cJPGNWJXnfLTlnWYi71hhT5L2kI4GHO9XzOVtSKIGvClUzZQzJBBahBBBCOlWFy9SF38C2XYyuNv4WQI4rrsQg+jAZvDpUGPwIIcRgkZcK3wkDCWUIpbNyg5Ts6HsEgpJrhasK3AEt1JV7LE75hMA0AQ1kL+Dp+7aIAGjgMYm7aOQuPqssjjK+cppcCo/TH3lyh5L5UCG5dAgkkcX/hYM7TkcNi+wu6OmO0iE/fijb1J6zH4RB2LMGDYzfINENZODinjMaF/ccOk73uWPpbizpxqH7p/wCKTYKPu0zvZ8AAAAASUVORK5CYII="/>
+</defs>
+</svg>

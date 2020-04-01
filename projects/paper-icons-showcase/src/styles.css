@@ -9,5 +9,8 @@
 
 body {
   font-family: "hey_gorgeousregular";
-  background-color: #cbf0ee;
+  /* background-color: #cbf0ee; */
+  background-image: linear-gradient(#cbf0eeb0, #cbf0eeb0),
+    url("assets/mario_background.svg");
+  background-size: auto;
 }

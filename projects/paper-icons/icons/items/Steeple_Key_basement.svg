@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Steeple_Key_basement.svg)"/>
+<defs>
+<pattern id="pattern-Steeple_Key_basement.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Steeple_Key_basement.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Steeple_Key_basement.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAZlBMVEUAAAA6KEpwUJZVPHCMZb1wXoNrLd7///+cc+ldOYN7b4Y6LVKBS72lXfdjRoPNufRKNWNVP3VaQXN7WaSBW6xCMVqEXbVrTZRfQn9wUpmRYebeyvdaQXtrSYxzU5x2Upy9t8K3le6bi/g3AAAAAXRSTlMAQObYZgAAAQRJREFUeF7N08duxDAMBNAMSblvb+nl/38yFLWCASsKfdy5EIYfNNRBT48QACsdr5IACQGrnMjWlcBNxJfWm0KA77L0XW539pOrI4HjvZScdoDNKfRldnM7Ugq5vNGchczuPj4vH+c4T8cFBdgAg2SRUprDGmluluevU5LFnhfA5jayATEhKHwpJNKQ9HMYQkgfzwrLJDgObdsGlQeDf0lrPozfCt+0elR4LWFekXkXYdO82t3+gdQp/FkBuet2XROhaOo7ElRF13Ad2hl7BTRtemt+V1frFgZTD0y5uXqkEHPfTxt1VIV7Sdlo6s7K/WdpwUwpu6oEExEzzDkUMOZH1UPkF5cRC1LH+8p7AAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

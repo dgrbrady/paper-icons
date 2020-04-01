@@ -2,20 +2,29 @@
 <div style="text-align:center">
   <h1>Welcome to {{ title }}!</h1>
 </div>
-<h2>Here are some paper icons to help you start:</h2>
+<h2>Available Icons</h2>
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Icon</th>
+      <th>Group</th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let icon of icons">
+    <tr *ngFor="let icon of badgeIcons">
       <td>{{ icon }}</td>
       <td>
-        <paper-icon name="{{ icon }}" size="medium"></paper-icon>
+        <paper-icon name="{{ icon }}" size="large"></paper-icon>
       </td>
+      <td>Badge</td>
+    </tr>
+    <tr *ngFor="let icon of itemIcons">
+      <td>{{ icon }}</td>
+      <td>
+        <paper-icon name="{{ icon }}" size="large"></paper-icon>
+      </td>
+      <td>Item</td>
     </tr>
   </tbody>
 </table>

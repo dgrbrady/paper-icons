@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Super_Luigi_series_Vol_5_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Super_Luigi_series_Vol_5_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Super_Luigi_series_Vol_5_TTYD.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Super_Luigi_series_Vol_5_TTYD.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAC4klEQVRYhe1Yz2sTQRT+to014qJWGzBeipJCLLQgeqkXERYEf5wUAvoPePAQL/4JXjy0hx68WEGwIFgRRUSIFD204KXUUBAM5NJSpKUtZiWJTU0Pk83Ozr6dnd1ktxX6wWNnd2d2vvnevDczq13PYl+jZ68J+OGAYKc4INgpEsJ9M8K+tDCNeAWjJBf6+5aC7cZDO84KX6vO+7Qepps2mgiopOhiAMDYcbs82u98lxZaHOqVd1CsAgXT8SgQyQQI6XMpu1xuCASFuklyiDaMluICSWWQn3+1xq75EnPpVU7RdNIuPzip1snDVHgVXWnmZy/wwmQqPsoAqyYwvQLs/GU2X2d28ai/eiJJAc17J0IQtFAw2UdXx4CJjK2qhaW6OjmAudoIEWCeBMc5QrkUM57k7B9mQSCq+HLLP/VIVxKeJB/ZFiY3gK2G+7kMhFulJHsgmaz8xM6lgMs6MLcMnKnZ9qbq1ZrG3f5grvZdiyeX7fLMiPv9XI2ZH4YXgLcbrDxyxPXaU0VfgrObzCzcGQBerzvrTFXk37CIfaswrxg6HdUygtKctMQFw5OzdB0VFQG2sgDqUc1nMg3EKGo68HEbyLZGnkywtJMvsXmptYg9rwHzXh1qwKVTQK0P2P4HfPoNXDsGDB/2T+DK+8EiFwzWUijmxh8msFKnbaDPrrdYtUkSKjpEEglKI5of7URGPiA/LLYGTMxFJyHi2CnNSx+4OZgvAe8qQJZTIcgC83mIXQumM+da3AB6s0DORQtWFALAzdPAIJHAVcCnGkMnt2WMjMfBXVnFbuJG2fVI89qPSFUcXyOTbccwdHdUeykIRH9GUYJsRydV8fb9W7hwZbTrhMrFMp49nm7fhz4XR0GOgh9BMi/GRQ74D/4sqBAM9UegW1BV0EFy4cv3CKjQ2PcuDnBwdKadmafvce78IDZ/rUuaBEdDOOPIEjWF2JN3UBfHHTBamDkYF0nP7ZZy4ziwC3mJzBFubQfWAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

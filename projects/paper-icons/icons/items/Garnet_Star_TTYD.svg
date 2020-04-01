@@ -1,0 +1,9 @@
+<svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="37" fill="url(#pattern-Garnet_Star_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Garnet_Star_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Garnet_Star_TTYD.svg" transform="scale(0.025 0.027027)"/>
+</pattern>
+<image id="image-Garnet_Star_TTYD.svg" width="40" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAlCAMAAAAHvluBAAAA6lBMVEUAAAC1QRnNfkdrKBCcUyv/mgD/qmPOZRD/fRmcTgrIdjycRBPNXhDNdAXQdwXmfAjmgUq9XgqtWSv/omPxiQXAXyCcOBbNYBbmeQiDMBPmaRnNZDGUQw3IeT7edSnjeQrQgUrWgUe3WyDedgq1aTn/kAihVArmh0pzLRBzMRBzMRl/NgyEMRCDMBSENRCURQiMQByRQRicORmcRhCZTya6Sxm1TiG9URmtWSmoXTG1WynWaRDhdAjNYTHmZRnYbyDuiAX/pELFeUL2dRnuk0fbiUz3jgD3eRn/hhDmklLrmVi1aTHvmlr3nlKvqh4sAAAAAXRSTlMAQObYZgAAAXtJREFUeF6N0NWOKzEURNGYmsOMw8zMfBn+/3emjh3HicbpZD+1Wksuy4WvCVRYIqFbGopl3ObIyVwXjNYXQoECwDPIBW5/FbDZPIbMh3AEmwLlX3AMw/lQUMEEXgjkVdYBhmHIuedBhY1PQymFbUZ1W0xKPgXxzSfWwqNzhiR6/6PhC5ju952R5A62EaOu/6Lhv5WHhlLqLbDdjuFJyUIGh1bAHFyrnRIkWVKlkoPD742GhcRqNWHhHoZ+PBK8JwdIEmqnz+AOtdMyVlQnY1n2MzJV6vXKFaNaxhlZVLpyVo4srLBxZthK4xibgpUn7brWufEOI+im6zdu2EkecAnYt7CsUDGOd61zUhJkFipdbC84eyTBDwfLONA5B827PdvpjLF4LkQbSrfFTHPht9DIX71cCBeGr3RgFPW8EJIbh7QzsuWH/5MkqVarHTxgEbKdpqkfJgRREUUkvVAGHO5yMBAojtttkl4opZgtTb3QH5wXuiU/pEDy/n0CC7gmym0XPYEAAAAASUVORK5CYII="/>
+</defs>
+</svg>

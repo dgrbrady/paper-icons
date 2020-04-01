@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Goldbob_Guide.svg)"/>
+<defs>
+<pattern id="pattern-Goldbob_Guide.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Goldbob_Guide.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Goldbob_Guide.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAABnRSTlMAAAAAAABupgeRAAAC4klEQVR4AWLAAKPA0FCSuoj+tiIQUba6uqpWA8ivB+C4oiiM42Mj4xqj2rYV27ZzY2NR27YZW6N2bNc2xka/mdOed7u5s333pe7MP07ub8/JstyTc9qNdmwLVLcrUlliwlINODJiRm+vQA8fOdHLZzuMXh3gPr07IXXR6NNN7sC+JD2YyP8Gjo2Z8/LVCdTfX3P0SPyJo3LpRsezjE7muPTpUys6sC/LCgy1MH/lt3mqK3bNCoxrKVTOzEqJkfur4M1bIjUB1KssKWGlBvzw0Qki1f9LE504KQYFm7j2ckLu9p1DBHtumGIFHvyqNVREhhI7cSqrzhGCUtKXVVYF3rhe+fDeRfQDYCE8lXBH5yZPnwkUVIRPuI7O7QPVru5dVmCbI4TP5TArhqYwMSf/TmDIDII3bYnTgOvrKwnu6LRRdJzNEYZYRdgzRbDNEYm5EQa1Btv4yoJTcKJfwPgTxyKpwvyFkZGTV6wahfD94uIV+Cbe84XD33JC+GjA9DesIj59whSPgdHFAonwy7gqMKyh4jLKMC3QjUrhpwzz0NjcD4DdqDT0YOH6+k0gKZAE79gV+H3Y9uWKzXc7Im8dw+5UilUe1wyMVQNGMqy1Zz9dmK9cLhPX3yyxuGdEBxGclbNYqbrcnMBb3jPX2tpmW7lmKEpJXoDT62o34BPPDWOplOTZfOOuqV4NtalZ0JPAh/d24DSz8J49aV/JLgSYYlgZSITfqanzJhVt3hSoNW4rkQzz0J4bJmBcSlbjE6bSSmDD43THbWVSVgnmsGFE28aPOFaxcM1xuQ/1qLW5hE7k6htFWeVq+anuwiUeXGbG4of3nAifuINZ5UcFJpUwVHrGKa/08tUYhnEOyAvn4lk1fR/J8PtriG4VxGNQkANhvLoRhXMJJtXsuIEhC+FxTLpEpBLG0LDxHksGbHbJrU3O3r4dUk6jrkquta1QKou7eS2Jw5X884hNzDRCAzTeMDgBAKW8UyNX64UJAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Platinum_Card.svg)"/>
+<defs>
+<pattern id="pattern-Platinum_Card.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Platinum_Card.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Platinum_Card.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAYFBMVEUAAAApRVrv6+9wg5Gnrrfb4utoeYj///+3wcjm4+b38/ets72Lq8jW195rgpy1usXe3+bp6e5Sgq1rfIuDosCMmKSGpcOUss5KY3tKdZxvf497ipSQnKiUoqyUqsW9xs4o1wQ4AAAAAXRSTlMAQObYZgAAAOBJREFUeF6dzteuwkAMhGHsbQm1nN7f/y2PLZaMwAqD+K988UnjxaOJyJ3Mo2yKujyOY64miasGLcgZ9167FOuG225rlxvI6GSlq6P1bFD1CTI61dcuFTK4F1VIP7EeHKTDvcvghnbuzeW6eelaukPrIOG+uwnytA64bDNyeSFFOiB/ArI/RX4c8D8FT5I/xcfJn5Bk3RmXg0v+JyDWD5b2Sim/LtMEyXoaWnJHZUrTMuT+crqYNAgHOYbyhzjkMndHJFyUG+7i+h8cgmS7kNThT+IgP3e7L+pc9hYssAf6B3vzF6d6FoquAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

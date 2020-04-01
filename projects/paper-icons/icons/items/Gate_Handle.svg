@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Gate_Handle.svg)"/>
+<defs>
+<pattern id="pattern-Gate_Handle.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Gate_Handle.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Gate_Handle.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAATlBMVEUAAABzZVJ2bV8xMTGUYRlSQSljZWNzUSF4d3hBQ0FSVVJlZWXOzs6cmpyUintwcnBKPSlCRUKZmZmfoJ86NSljTSFKS0pUVFSJiImMjowcsanPAAAAAXRSTlMAQObYZgAAAIhJREFUeF7l1NkKAjEMhWGTzLq47+//ooKnGB1ID/VCEf/bfhBaShZ/kb3EnJc73DwCDNxBVatUC+nu3HkKiGbwtHxqlYHNe1BEPg0vzT2hsDNUeccstLpN1XAh9GIY/545DPoiNDQSCMWhFcDdhBgcktsz2G/RuhTy0UWXudJn5JuGOY+43+kG6poShLeTKykAAAAASUVORK5CYII="/>
+</defs>
+</svg>

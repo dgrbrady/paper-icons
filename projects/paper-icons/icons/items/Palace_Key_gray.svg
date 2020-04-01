@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Palace_Key_gray.svg)"/>
+<defs>
+<pattern id="pattern-Palace_Key_gray.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Palace_Key_gray.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Palace_Key_gray.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAdVBMVEUAAABCQUpCRULOzs5wcnCfoJ91dHX///9KTUpKSUpCQUKIh4jAwcBGR0pCQ0ZraWtaWVqtqq2cnJyIh4xzcnN2dXaRj5F7eXuio6Kcm5yMioyBg4GcmpzNzc1SVVJWVVpnZWtzcXN2eHaEgoSioaK1tLXFxsUP3E+oAAAAAXRSTlMAQObYZgAAAUJJREFUeF7V08dywzAMBFAvAKq69/Se///EABQytE2b9jHZgwaHJ2kxlEZ/IFOi6S0OpMENDiRCwHUHYRYAV92ONbsrEkTCMVLsCUTnEij342Cu2HPoF0hluSfwaK6JLPUkTdd1RxAheMvUEw47ShK+9b75SD1BEgL3fUeHkiiYa7449fTKPR1J7Rmi9kia+9OegxPvas5zutHgKG2VPTL1NOcyjrLIYez5rL0H+dm21baa28ghbZN6jgwG5nazqapqKzaLwlPpjjcK5xoRYiaFecwp1MyrxcJgOAuBV9asNbOnuq4faHxeAve/8K52yOEyXLbLA8iX4Xe7XtqrxzQ2KDTN4ZtB+0BEY5s5zKWf8jsRic90FmZnnS+TzlyzTzeIwTyTyaSZzV6AlbsV4DCXsAw0AMU/HfFCGnelOBz9n/wAfXIOh2LinZ4AAAAASUVORK5CYII="/>
+</defs>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="34" height="39" viewBox="0 0 34 39" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="34" height="39" fill="url(#pattern-Shine_Sprite_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Shine_Sprite_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Shine_Sprite_TTYD.svg" transform="scale(0.0294118 0.025641)"/>
+</pattern>
+<image id="image-Shine_Sprite_TTYD.svg" width="34" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAnCAMAAABdVGpDAAAAQlBMVEX////CogJKOAiGbAX/1wBSRRikhwTetgDAlgJwWAW9mgCsjAJCFAh7YQWggQSAVAVSRBhaUSl7YQiEaQiUdwT3ywAF5hxwAAAAAXRSTlMAQObYZgAAAU5JREFUeF6l1Nmu4kAMhGGqylnZz5l5/1edkhtoJ0hwMf9V6HxyS0Zw2EV3+BizL+Lnx+ajQAQ+GVLh9E7o2AjCgazHjq06ZajHSUagG+jBif7ch5s4sl9aSJAchsbbUztWJZngxKxOGS3kWJIgi7ERZ9BWdj5O0/H8XKH6NlwuDH7tjpO1HneXxcNC9BgPoWyADtIsKebI5jSLRSUpEI+QZk8WWFxP4U5XGyyV3OhWKUx81WwS0kp3q99iEBGnRjwLDLaaQJDYE5CBNLmBJFEviiQRMhlsXlNmvzScnwQWQ7vpDzmZlMDJx/ULMJEqkUzKau70INQxIDyC9+3uIHZCISdsCUPEa/9BtxMjZSM45eO4NRYhEhCdHa3GHWlbIjI+91nF5e/ll5t+fVQMe3LddTIkSIv+q3NDval5w4jyoYtq15X8vz8y91W4d/EPRQoLrPJhCfwAAAAASUVORK5CYII="/>
+</defs>
+</svg>

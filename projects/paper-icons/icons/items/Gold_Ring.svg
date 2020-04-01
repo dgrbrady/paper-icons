@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Gold_Ring.svg)"/>
+<defs>
+<pattern id="pattern-Gold_Ring.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Gold_Ring.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Gold_Ring.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAABnRSTlMAAAAAAABupgeRAAACxElEQVR4AWIYBaMAUG49BVcSRVEY7rFt27btcGzbtm3btm12xrZtz/M89azUTq2ci6BPMj71x/hq76v+b4+HEZ39ao+xX6GOr9c4IM/aOraGunbEGHPzVovn1VtkLlhqw9ZTKYJHIJHwNmxtVYVpPz1+JtxswlPrNbaczv371uSpgc2ea336Zi5dHc7w/bPnkQO8a7eQDDDi0B4JI4dVbZ06C6Dd02bR5rhqGBfweJ96onpkNpgmPKRERYElSsHAiCrTgfEf7x86tnvCFBQauEv2FFeWVl7aOi8+0bG5ag3YutdYMhcW1beh4p8GD6t3LsxK2LpZG41vnsqezYcTh3avnr2qPpyoElZt3PVCCyPZpPx3NX4fhvzm+GqZHOCrHtK3/SXVZxgdm7z6JTyO6xb+frbyTO/UNmBshjbuO8QYN4zMGWWdYKro7uICNob2yBw4NHkm36EqrRuUA/ktLPHiQA2q9mCMK7C52He8dy6VURtSNv0Q7xSts8aXOmQ1mF+/pNbZitLdxTk8IkeXQh5XYOtdH8lc4DHeM4cEb+vQEniPqDrB67yNF8tya8KYlbD1qgt7eri2qCosa1Qn5tAzfZNTDRWMPbuFqSLx5FAdWyaM8HqvQPhZF2l860yuT0bqK8T4ChGtYdHNaVmRZZbEe/5+aOHx7bI6webKaup/8UgcGR6jqsJOqibMcZkKU0Wijm+YSAdGoYGXFo2MvnUzqCJ7S3Z+HCc2xjfIYD1r498j/y6tq7ygR1Y8VNjukZmZOTq9ZO0usLRdij4F40uGrSMwMpdUVGHkNzAVU2Eh0fg68anqXARCpS0wcgvfX5EPgYQtu9VUCbM2JaKDDOCv1kYv1hRF1vGSCOrUVimEJKwhOt/YqHHG2FKXKvEHlI+/blAGhE+GeONpK7ZEla/5YT0CM4/oBoPHSIbzCR42/qLzA2WxxyoE3ybDAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

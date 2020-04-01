@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Train_Ticket.svg)"/>
+<defs>
+<pattern id="pattern-Train_Ticket.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Train_Ticket.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Train_Ticket.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAOVBMVEUAAAD/kqVKGAD3VWv3aXuGQDeDLCNrJBC9TlKMLiXORUrCaW7vipz5aX5rMRn8fZGMRj3vUWPOdXsNCO6LAAAAAXRSTlMAQObYZgAAALhJREFUeF6N1LcSAyEUQ9ElbXb8/4/1c5i5jZFQRXFGiIaplzypwN4Zckjjln1DCjeXutKpXKlI5QIi+/vKF9YT2en75JJSakjlInRqlw7kn32Rmn7wgRR96RbnOaRzAZE9ByxbQLEPuEeJ6AMu1rFRO17d2wc0feRYpCN50DVcQPZpl/caoY9cPw65rQHFvVTmkMYhtUOeeh8ymz5k8w7pHTsT+4S0fezEGYkz8v5k38CP7IOz6bIXQ3AIp2F9jvMAAAAASUVORK5CYII="/>
+</defs>
+</svg>

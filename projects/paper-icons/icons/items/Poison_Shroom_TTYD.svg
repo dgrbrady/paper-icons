@@ -1,0 +1,9 @@
+<svg width="36" height="39" viewBox="0 0 36 39" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="36" height="39" fill="url(#pattern-Poison_Shroom_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Poison_Shroom_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Poison_Shroom_TTYD.svg" transform="scale(0.0277778 0.025641)"/>
+</pattern>
+<image id="image-Poison_Shroom_TTYD.svg" width="36" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAnCAIAAADo9n1hAAAABnRSTlMA/wBXAOEaPCrGAAAC4klEQVR4AWL4H/6QGCQAKL4emOMKozCO329RIzbqxraXsX1jJ1vbtm3b7aifq8/MaU83527eeeOZf7w5v+t7N81PkeYQQ5/RSQPTY5JKkpBZU8nRb/Q9Q4c53NH9e/s5a78mTtA3eIEOaailQkeO1WDpy+jh98P7+DeCVGNS2uTeZDWsGAwKv6ytsCk8QyFVdufrY9Tz/n3w1JiUQkui02oT1Rj6Pn70/dDe+/0edLi1BTW15KOIwmjhSUxIlFoSWHdVMUk5FYk+PUNIgc4wGFxbb9nFkUHFaj3/JxEGBkPIs+48Q0hxHeu8MfyI4OlgtrI4HgVvXUOYCsOBjp2M0QjrRBJX155zoL/l+fg+9H38GHW0u32wxeauTE4sifDLWupdcmky+u8RpjilJpENYVyY048DI6S43FCEmRLjH6wSe2qMJXxjK4ozy/Kp7oYa5O2pMOEpMIQtiVhi7Fq/xxuT25D3B3d6wIxrCeM21AYnF4eisKKlKL1s3aDT1mjPQd4YZtJY32tGl5w3g3s59prNPGIolvANSQoMnyUGiXrQ40FWjJhodwAiCWEoDF1MHI3ArnUMIiKxAbm/TJkf0sQwjTajxND78WNoR1MTd65jkOqucdDhEFyyGtHhx8eez7JtabhMY8ik80x49AorRkxA/nKkg2EO4skSo/AK9mBQGE2GOHmnkm6bI0JiTHq0BRDWKad0szA4XjnB4IA6UFvn+0IsPG5pnl90RRwXZFuH6E/LCwK4zNK0sYYmhDvn8+F9tVU2MUf3GYQjLLEpjcIVnQNG+fxH/aerWTXD50bziIlswzZEGzPYFUxhM2ow2lhCU+a5J8fQvhsez8XhwVN9gDv3t1UOV+IzUhi6GI9oP9g+FYaOPdg3lxgYNba2KGrhsHUVcfOLmUfbUV5v4UJj836AQOLmALN6VgyrFeZcx9LcYAg7pnFfE6ZTgPN7i+lPc4MJb/HfU5M0Zxg3G4b6A70Chm09bXLPAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

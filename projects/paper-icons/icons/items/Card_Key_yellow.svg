@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Card_Key_yellow.svg)"/>
+<defs>
+<pattern id="pattern-Card_Key_yellow.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Card_Key_yellow.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Card_Key_yellow.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAMFBMVEUAAABKQQD/5zHOys52bkTCryCGeBCDdQ333ynFwr2MghC9qhminIlWTxBjXSHp0ikfyv34AAAAAXRSTlMAQObYZgAAANtJREFUeF6F0LENwjAQhWGyQQ6RVFRPIgWtWSBigrigTwp6pqBmBdagZAJGYAUm4HS2eYeIxEkubH3+ZXnxb6p65kzkF4oIKSEpIamDpISkhC0pYRwLJWzQFUo4AZkSSgtsEyX09FMclFp11UuBcSNyBdTtd0pTscGg66wwhGedoNEJJ4UhPOpSXOKAzmC6biwCGA32Uoo3IBcvGYq5XEyPl2ZUChbtdtTtyxdNQqkvWlPp9CnyK4++WKgvkroiKYukLYuOskjKoqcserpm0dE7i6RC6CghqYPz8wZ1bzh3Zgx3HgAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

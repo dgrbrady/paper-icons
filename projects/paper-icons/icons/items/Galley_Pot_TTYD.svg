@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Galley_Pot_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Galley_Pot_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Galley_Pot_TTYD.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Galley_Pot_TTYD.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAqFBMVEUAAABCRULOzs6tqq2UlZSfoJ+OkI5wcnDOys5zdXPFxsVjZWO1trVKSUqWlJZ3d3eUkpSEgoS9vr2JiIlSVVJrbWtYWVi9ur2qqKq9vL1+fX5VVlVdXl1oamhra2ttcG1wbnBXV1dlZmWEhoSRkpGfnp+Zm5mfnZ+1s7XFw8XOzM5iZWJubW5gYWCcmpx7eXtKTUpSUVJaXVpoZ2h4eHiGhoaMjoylpqUndkGQAAAAAXRSTlMAQObYZgAAAQVJREFUeF7t1MduwzAMgGFTW54jc4/uvcf7v1lpgzbUCkpy6DH/+QMFQRAjP8CiwwF1NITDruCc74VAibqugQozbCSEgL6AIzgCWPbUd69v1n7hNIRClOXHcvgCmDdt8axUmhozTZJPYyaTPK8e3KHQ9U6wjeAYKBfCYqWUmlJ5nm/HvYPWVYxpoFYJtc2yrCWasQpRAzljTMLjfL7ZgNMZtsvQMU6wIPh0Fccxk1JeY5wPBhahRFh0Z4N0IGaMcaCky7RSB6HW5EhCA/nNLDZ3CG9nKb+8OG/g78fZDyOnf4cneIL3Qzge+islCH35F6LzYZu1393nKtfrwIoEL2J+YeYXVj8N6TnQLIOwVwAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

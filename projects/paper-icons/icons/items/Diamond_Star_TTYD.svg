@@ -1,0 +1,9 @@
+<svg width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="37" fill="url(#pattern-Diamond_Star_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Diamond_Star_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Diamond_Star_TTYD.svg" transform="scale(0.025 0.027027)"/>
+</pattern>
+<image id="image-Diamond_Star_TTYD.svg" width="40" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAlCAMAAAAHvluBAAAA6lBMVEUAAABSWUKUhlqlonvW27Wtmmu0t6SDiHPm59aqonikqYmcmnOsspF+hGiZl3OUkHivpYCJiWitqoSyr45tcVXAvpZ+d1Kqr46emXjFyKHKxKe6r4NoaEp1eFrg48vIxZzm4861tY6OhF2fmHCDiW3As469upS3uqq9u6fKxqzO0q1aXUpaYUpaYVJjZUprZUprZ0pma1Jwbk9zdV6EdVJ/eVZ4eV17fWN7gWWfkGWckmiclmuUknuQk3+coIyvpoOllmuinnWcnnuknna1qnu9toy6uJHFupS9upzIxanTzbLOzr3Y2MLe28WNjsiaAAAAAXRSTlMAQObYZgAAAXtJREFUeF6N0eWSgzAUhmHiaN1l3d3dXe//dvacQJruFrJ9fzHMM3yZ4E1GIG+KiG5qSKZxNwtWOp0vUP6/6/tCHKB0u+1VhGIHpBuCQygI5D4gwky67sUfwWMCFSh0BiqVc6HEJMchUoutGrSoUtJCCc9yZA3cO6IQQPn2peETMN3ndSrR7S9BFLuo1er1928hZjnnM77pKoOnsYEUYT3qA7NwrXyIEGXM49jCKBJ9A5GVy8TALRjaeEH4WIsgobdBrd9ScLvaaZlwbCWgQfDA0iq9ud45xVraZbLNdU0aMAMrNCsdNjJz47CX0oFxdnyFIrTTc3d22ErpS0UhAwMOtZNk0zgr1QQEScgk9CXC+ww24cjwQessTO/t0sCA0qQAYh941d1ud56mFUIh+hxjzA2X07/H5xlbzIMopXYYbDMIZSsfvnY6nVKp9LwRhiHSarWRC2UHIRQ6oZIK4XBIsLNqFWQeBKlOyK8ajTxYmJcL7VIRROq53v0ASCEfDAz55M0AAAAASUVORK5CYII="/>
+</defs>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Volt_Shroom_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Volt_Shroom_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Volt_Shroom_TTYD.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Volt_Shroom_TTYD.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAmVBMVEUAAAAIMEoQMEpaHAhWHghrZy09IiAhKDnGnhCsjhj/vgBaXzEjKTRULhhKIBhKVTmEeSGniRj3tgC3lRUpRUI9JCAhLDlXXDFrZTE+Ih1MV1K1jBJqWSYxJimchB0YOEKsn3D/14TWpmORflrnrgh7cSjImFrAllqQWjG1khhCFAjQpmWAVDGhdUdzRSnnvnPesmuseUb///+nWkOdAAAAAXRSTlMAQObYZgAAAAFiS0dEMkDSTMgAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGhSURBVDjLjZSLdoMgDIaNsbXouq3dxa271V1sx9zF93+5BUIUVHb2n9MK4eMnBCVJxgKANE2Tv4WIwGBKzSiWoQMXDGIWx5Y5cavFKk3zZQQVN1BFaX8knFmfQidmrCwKZWlF6Ho9IYVTRVE4niasJyTiqQzzokyeEZn5JACIXXHudxS3+/32Hv0QyXbZX/aOvQMnCN5EOxMlQYDN1jPwF7cxV04DSvDicnCUmALejyv0MD/0U1x4C175OdlKhx1YGpDo69CkDHdCyo2lHLEUZFvZ9k1QhBBklyrolT546xsO9Sm9tQOwHNexHNYOllZ9fqIdgXdT0MtPdC+WyPV5YEMFY+VEPtLzwRXcWD5Zrtps97XV/vllBzmRr/3J2LOGt4Z6hzrQgUJHk7d7dzMDvlPQjOkPB2kzi4LVBuTt4fcRsaGRVn8y2OqW/hveaeZ/Ctaw1vqLQW3BmsHRx8/jegROvmwB2xE4c1MMqfk5RkDebN+Ig/W3FPGnjoJNPdG/weMsOCWb2WuXgl2AdV3kejbFxa5x6hCj1zhOlEQVp34B6zs24pH5YOMAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTctMDUtMDVUMDc6MTM6MTYrMDI6MDAJyq6XAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE3LTA1LTA1VDA3OjEzOjE2KzAyOjAweJcWKwAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

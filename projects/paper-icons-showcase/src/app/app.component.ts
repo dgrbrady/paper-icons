@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { PaperIconNames } from "projects/paper-icons/src/public-api";
+import { PaperBadges, PaperItems } from "projects/paper-icons/src/public-api";
 
 @Component({
   selector: "app-root",
@@ -8,5 +8,6 @@ import { PaperIconNames } from "projects/paper-icons/src/public-api";
 })
 export class AppComponent {
   title = "paper-icons-showcase";
-  icons: string[] = Object.values(PaperIconNames);
+  itemIcons = Object.values(PaperItems).map(icon => icon.name);
+  badgeIcons = Object.values(PaperBadges).map(icon => icon.name);
 }

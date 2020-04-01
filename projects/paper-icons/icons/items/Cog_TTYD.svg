@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Cog_TTYD.svg)"/>
+<defs>
+<pattern id="pattern-Cog_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Cog_TTYD.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Cog_TTYD.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAANlBMVEUAAACtPTGMKCBrFBClOTFjEAh7HhiMJCFSBABKAAB3HBhaDAhrEBBWCARzFBBzGBmMKCGZLyZuFYL4AAAAAXRSTlMAQObYZgAAAMhJREFUeF6llOsOwyAIRgtqL7vv/V92YaODyNwXtvPDVHsCEZXpZ7Yd5BnAM745MjAJTSbCMJaJSvA+iUWG4NW6diITq+m8I9Fz+XInYSmv2IuaFo8EZhL8N3dipRFFTBMPI4/71JZ0Ft7eqmIwZ1+lbtfuD/f11Imvta37FEVN8057XncCWkcTaWdQieZFC6gAccqLf6XGm8HluenvRMETR4gvRfqa4Yubfwr4ccXneqX4XPMNALeUfJPCbS/a5yaokm/NEeBhHoZVFU/YF7yHAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

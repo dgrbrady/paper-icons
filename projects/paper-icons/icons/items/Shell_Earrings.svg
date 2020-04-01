@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="40" height="40" fill="url(#pattern-Shell_Earrings.svg)"/>
+<defs>
+<pattern id="pattern-Shell_Earrings.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image-Shell_Earrings.svg" transform="scale(0.025)"/>
+</pattern>
+<image id="image-Shell_Earrings.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAYFBMVEUAAAClMVrhkaHDYX3Ka4P/wsXvpq3mnq3QeZHAXXv3tr29XXvTfpPbiZzTeY69VXPOeYzuqbLpnanekZ/DZoOlOWPhlKTeipy9WXfWgpTmm6e1TWvFZ4Pro6/FZYSxQ2bWzgkiAAAAAXRSTlMAQObYZgAAAVFJREFUeAFioAIAlE4fuG7DUBBFMW9yf7fcKKUn+99lQJB4KpDS/nVBO65DSfoblf0lS3oMo+aUR+4DvUi5Dx+iRpeHLnOApd+7sGqPT9Khc9hgE6rpyAUhQAF62oPdPRAKGvZjlXtKen7BUY2B18BbqUVA029BrKFWVSMaxFv4GsDL6dRkuMPNW0qGniUxnAGGC1yXUJJb0eRwHuiQBdQyE9L5fAM43xOmsxQhW5KV8NphukIZYRrBqoWoKc9PrlYNZYIIJ2zrLBwwTkDFYSy5Qa/fMKAUYOqQ5TrqcLmDXXUBdyg+NtcgEM55GdvH5bWVP/lTEtEhUpZOn5OI/tF4wRI+wpevALdzPjvVHhxWMEnCbwmHfE64kmtYR0Z7ME/p5UKfKBJupTrs66TbQFnfExbCO7BL/fje4ViK0u1J6fzz5/l8ltLt0yzdsU32nn4BbX4QtyAv9NQAAAAASUVORK5CYII="/>
+</defs>
+</svg>
