@@ -5,6 +5,7 @@ import {
   ElementRef,
   Inject,
   Input,
+  OnInit,
   Optional,
   Renderer2
 } from "@angular/core";
@@ -15,11 +16,13 @@ import { PaperIconsRegistry } from "./paper-icons.registry.service";
   template: `
     <ng-content></ng-content>
   `,
-  styles: [":host::ng-deep svg{width: 40px; height: 40px}"],
+  styleUrls: ["./paper-icon.component.css"],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class PaperIconComponent {
+export class PaperIconComponent implements OnInit {
   private svgIcon: SVGElement;
+
+  @Input() size: "small" | "medium" | "large" = "large";
 
   @Input()
   set name(iconName: string) {
@@ -37,6 +40,28 @@ export class PaperIconComponent {
     private renderer2: Renderer2,
     @Optional() @Inject(DOCUMENT) private document: Document
   ) {}
+
+  ngOnInit() {
+    const observer = new MutationObserver(mutations => {
+      mutations.forEach(mutation => {
+        if (mutation.attributeName === "ng-reflect-size") {
+          const svg = mutation.target.parentElement.querySelector("svg");
+          const className =
+            this.size === "small"
+              ? "small"
+              : this.size === "medium"
+              ? "medium"
+              : "large";
+          this.renderer2.addClass(svg, className);
+        }
+      });
+    });
+    observer.observe(this.element.nativeElement, {
+      attributes: true,
+      childList: true,
+      subtree: true
+    });
+  }
 
   private svgElementFromString(svgContent: string): SVGElement {
     const div = this.renderer2.createElement("div");
