@@ -1,5 +1,5 @@
 {
-  "name": "paper-icons",
+  "name": "paper-icons-repo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
+    "paper-icons": "^1.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

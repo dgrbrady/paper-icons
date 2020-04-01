@@ -5,15 +5,15 @@ import {
   PaperIconsModule,
   PaperIconsRegistry,
   PaperItems,
-  utils
-} from 'projects/paper-icons/src/public-api';
+  utils,
+} from 'paper-icons';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, PaperIconsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {
   constructor(private paperIconRegistry: PaperIconsRegistry) {
