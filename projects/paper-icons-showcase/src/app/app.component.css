@@ -10,6 +10,15 @@ paper-icon {
   border-radius: 10px;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 th {
   text-align: left;
+  border-bottom: 0.25rem solid slategray;
+}
+
+tbody tr {
+  border-bottom: thin dotted lightblue;
 }

@@ -9,23 +9,33 @@
   <table style="width: 100%;">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Usage</th>
         <th>Icon</th>
         <th>Group</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let icon of badgeIcons">
-        <td>{{ icon }}</td>
         <td>
-          <paper-icon name="{{ icon }}" size="large"></paper-icon>
+          <code
+            >&lt;paper-icon name="{{ icon }}"
+            size="medium">&lt;/paper-icon></code
+          >
+        </td>
+        <td>
+          <paper-icon name="{{ icon }}" size="medium"></paper-icon>
         </td>
         <td>Badge</td>
       </tr>
       <tr *ngFor="let icon of itemIcons">
-        <td>{{ icon }}</td>
         <td>
-          <paper-icon name="{{ icon }}" size="large"></paper-icon>
+          <code
+            >&lt;paper-icon name="{{ icon }}"
+            size="medium">&lt;/paper-icon></code
+          >
+        </td>
+        <td>
+          <paper-icon name="{{ icon }}" size="medium"></paper-icon>
         </td>
         <td>Item</td>
       </tr>
