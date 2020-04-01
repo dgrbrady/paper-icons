@@ -1,30 +1,34 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div style="text-align:center" class="panel">
   <h1>Welcome to {{ title }}!</h1>
 </div>
-<h2>Available Icons</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Icon</th>
-      <th>Group</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let icon of badgeIcons">
-      <td>{{ icon }}</td>
-      <td>
-        <paper-icon name="{{ icon }}" size="large"></paper-icon>
-      </td>
-      <td>Badge</td>
-    </tr>
-    <tr *ngFor="let icon of itemIcons">
-      <td>{{ icon }}</td>
-      <td>
-        <paper-icon name="{{ icon }}" size="large"></paper-icon>
-      </td>
-      <td>Item</td>
-    </tr>
-  </tbody>
-</table>
+<h2 class="panel" style="margin-top: 2rem; text-align: center;">
+  Available Icons
+</h2>
+<div class="panel" style="margin-top: 1rem;">
+  <table style="width: 100%;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Icon</th>
+        <th>Group</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let icon of badgeIcons">
+        <td>{{ icon }}</td>
+        <td>
+          <paper-icon name="{{ icon }}" size="large"></paper-icon>
+        </td>
+        <td>Badge</td>
+      </tr>
+      <tr *ngFor="let icon of itemIcons">
+        <td>{{ icon }}</td>
+        <td>
+          <paper-icon name="{{ icon }}" size="large"></paper-icon>
+        </td>
+        <td>Item</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
