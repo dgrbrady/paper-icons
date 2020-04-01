@@ -1,5 +1,5 @@
-import { NgModule } from "@angular/core";
-import { PaperIconComponent } from "./paper-icon.component";
+import { NgModule } from '@angular/core';
+import { PaperIconComponent } from './paper-icon.component';
 
 @NgModule({
   declarations: [PaperIconComponent],

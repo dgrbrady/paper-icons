@@ -1,4 +1,4 @@
-import { DOCUMENT } from "@angular/common";
+import { DOCUMENT } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -7,22 +7,22 @@ import {
   Input,
   OnInit,
   Optional,
-  Renderer2
-} from "@angular/core";
-import { PaperIconsRegistry } from "./paper-icons.registry.service";
+  Renderer2,
+} from '@angular/core';
+import { PaperIconsRegistry } from './paper-icons.registry.service';
 
 @Component({
-  selector: "paper-icon",
+  selector: 'paper-icon',
   template: `
     <ng-content></ng-content>
   `,
-  styleUrls: ["./paper-icon.component.css"],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrls: ['./paper-icon.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PaperIconComponent implements OnInit {
   private svgIcon: SVGElement;
 
-  @Input() size: "small" | "medium" | "large" = "large";
+  @Input() size: 'small' | 'medium' | 'large' = 'large';
 
   @Input()
   set name(iconName: string) {
@@ -38,20 +38,20 @@ export class PaperIconComponent implements OnInit {
     private element: ElementRef,
     private paperIconRegistry: PaperIconsRegistry,
     private renderer2: Renderer2,
-    @Optional() @Inject(DOCUMENT) private document: Document
+    @Optional() @Inject(DOCUMENT) private document: Document,
   ) {}
 
   ngOnInit() {
     const observer = new MutationObserver(mutations => {
       mutations.forEach(mutation => {
-        if (mutation.attributeName === "ng-reflect-size") {
-          const svg = mutation.target.parentElement.querySelector("svg");
+        if (mutation.attributeName === 'ng-reflect-size') {
+          const svg = mutation.target.parentElement.querySelector('svg');
           const className =
-            this.size === "small"
-              ? "small"
-              : this.size === "medium"
-              ? "medium"
-              : "large";
+            this.size === 'small'
+              ? 'small'
+              : this.size === 'medium'
+              ? 'medium'
+              : 'large';
           this.renderer2.addClass(svg, className);
         }
       });
@@ -59,16 +59,16 @@ export class PaperIconComponent implements OnInit {
     observer.observe(this.element.nativeElement, {
       attributes: true,
       childList: true,
-      subtree: true
+      subtree: true,
     });
   }
 
   private svgElementFromString(svgContent: string): SVGElement {
-    const div = this.renderer2.createElement("div");
+    const div = this.renderer2.createElement('div');
     div.innerHTML = svgContent;
     return (
-      div.querySelector("svg") ||
-      this.document.createElementNS("http://www.w3.org/2000/svg", "path")
+      div.querySelector('svg') ||
+      this.document.createElementNS('http://www.w3.org/2000/svg', 'path')
     );
   }
 }

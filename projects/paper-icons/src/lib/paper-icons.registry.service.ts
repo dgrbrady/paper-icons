@@ -1,8 +1,8 @@
-import { Injectable } from "@angular/core";
-import { PaperIcon } from "./paper-icons.types";
+import { Injectable } from '@angular/core';
+import { PaperIcon } from './paper-icons.types';
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class PaperIconsRegistry {
   private registry = new Map<string, string>();

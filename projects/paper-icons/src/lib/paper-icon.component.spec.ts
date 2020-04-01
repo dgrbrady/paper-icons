@@ -1,7 +1,7 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
-import { PaperIconComponent } from "./paper-icon.component";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { PaperIconComponent } from './paper-icon.component';
 
-describe("PaperIconComponent", () => {
+describe('PaperIconComponent', () => {
   let component: PaperIconComponent;
   let fixture: ComponentFixture<PaperIconComponent>;
 
@@ -17,7 +17,7 @@ describe("PaperIconComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

@@ -1,13 +1,13 @@
-import { NgModule } from "@angular/core";
-import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import {
   PaperBadges,
   PaperIconsModule,
   PaperIconsRegistry,
   PaperItems,
   utils
-} from "projects/paper-icons/src/public-api";
-import { AppComponent } from "./app.component";
+} from 'projects/paper-icons/src/public-api';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
