@@ -1,24 +1,52 @@
 # PaperIcons
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+This repo contains an SVG icon pack that you can use in your Angular applications. The icons are clones of various badges and items found in Nintendo's Paper Mario The Thousand Year Door. I do not claim any rights to the images used in this library or the Paper Mario franchise. This is just a fun little icon pack not intended for commercial use.
 
-## Code scaffolding
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
-Run `ng generate component component-name --project paper-icons` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project paper-icons`.
-> Note: Don't forget to add `--project paper-icons` or else it will be added to the default project in your `angular.json` file. 
+## Installation
 
-## Build
+`npm i paper-icons`
 
-Run `ng build paper-icons` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Publishing
+First, register the icons you want to use. Currently, you have to import an entire icon group - either badges or items. Support for individual icons coming soon.
 
-After building your library with `ng build paper-icons`, go to the dist folder `cd dist/paper-icons` and run `npm publish`.
+```typescript
+//app.module.ts
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import {
+  PaperBadges,
+  PaperIconsModule,
+  PaperIconsRegistry,
+  PaperItems,
+  utils,
+} from 'paper-icons';
+import { AppComponent } from './app.component';
 
-## Running unit tests
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, PaperIconsModule],
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {
+  constructor(private paperIconRegistry: PaperIconsRegistry) {
+    const icons = Object.values(PaperBadges).concat(Object.values(PaperItems));
+    if (utils.hasPaperIcons(icons)) {
+      this.paperIconRegistry.registerIcons(icons);
+    }
+  }
+}
+```
 
-Run `ng test paper-icons` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Once your icons are registered, you can use them in any component. The `PaperIconComponent` looks like this:
 
-## Further help
+```html
+<paper-icon name="icon_name" size="small | medium | large"></paper-icon>
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Where `name` is the unique name for the icon and `size` is either `small`, `medium` or `large`. The size will render the icon SVG as 20px/20px, 30px/30px or 40px/40px, respectfully.
+
+To see all the icons included in the library, check out the demo at https://paper-icons-showcase.netlify.com!
