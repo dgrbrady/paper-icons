@@ -1,23 +1,28 @@
 # PaperIcons
+
 This repo contains an SVG icon pack that you can use in your Angular applications. The icons are clones of various badges and items found in Nintendo's Paper Mario The Thousand Year Door. I do not claim any rights to the images used in this library or the Paper Mario franchise. This is just a fun little icon pack not intended for commercial use.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+
 ## Installation
+
 `npm i paper-icons`
 
 ## Usage
-First, register the icons you want to use. Currently, you have to import an entire icon group - either badges or items. Support for individual icons coming soon.
+
+First, register the icons you want to use.
 
 ```typescript
 //app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {
-  PaperBadges,
+  PaperBadges, // import all badge icons
   PaperIconsModule,
   PaperIconsRegistry,
-  PaperItems,
+  PaperItems, // import all item icons
   utils,
+  // or import individual icons such as badgeIconAllOrNothing or itemIconSunStone
 } from 'paper-icons';
 import { AppComponent } from './app.component';
 
@@ -38,6 +43,7 @@ export class AppModule {
 ```
 
 Once your icons are registered, you can use them in any component. The `PaperIconComponent` looks like this:
+
 ```html
 <paper-icon name="icon_name" size="small | medium | large"></paper-icon>
 ```

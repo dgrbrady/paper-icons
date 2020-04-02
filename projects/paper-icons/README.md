@@ -10,18 +10,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Usage
 
-First, register the icons you want to use. Currently, you have to import an entire icon group - either badges or items. Support for individual icons coming soon.
+First, register the icons you want to use.
 
 ```typescript
 //app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {
-  PaperBadges,
+  PaperBadges, // import all badge icons
   PaperIconsModule,
   PaperIconsRegistry,
-  PaperItems,
+  PaperItems, // import all item icons
   utils,
+  // or import individual icons such as badgeIconAllOrNothing or itemIconSunStone
 } from 'paper-icons';
 import { AppComponent } from './app.component';
 
