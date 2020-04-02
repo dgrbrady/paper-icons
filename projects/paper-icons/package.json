@@ -17,5 +17,8 @@
     "ttyd",
     "badges",
     "items"
-  ]
+  ],
+  "dependencies": {
+    "@angular/elements": "^8.2.14"
+  }
 }
