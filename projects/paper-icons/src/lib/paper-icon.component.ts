@@ -5,6 +5,7 @@ import {
   ElementRef,
   Inject,
   Input,
+  OnDestroy,
   OnInit,
   Optional,
   Renderer2,
@@ -19,9 +20,10 @@ import { PaperIconsRegistry } from './paper-icons.registry.service';
   styleUrls: ['./paper-icon.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PaperIconComponent implements OnInit {
+export class PaperIconComponent implements OnInit, OnDestroy {
   private document: Document;
   private svgIcon: SVGElement;
+  private observer: MutationObserver;
 
   @Input() size: 'small' | 'medium' | 'large' = 'large';
 
@@ -45,8 +47,12 @@ export class PaperIconComponent implements OnInit {
     this.document = document as Document;
   }
 
+  ngOnDestroy() {
+    this.observer.disconnect();
+  }
+
   ngOnInit() {
-    const observer = new MutationObserver(mutations => {
+    this.observer = new MutationObserver(mutations => {
       mutations.forEach(mutation => {
         if (mutation.attributeName === 'ng-reflect-size') {
           const svg = mutation.target.parentElement.querySelector('svg');
@@ -60,7 +66,7 @@ export class PaperIconComponent implements OnInit {
         }
       });
     });
-    observer.observe(this.element.nativeElement, {
+    this.observer.observe(this.element.nativeElement, {
       attributes: true,
       childList: true,
       subtree: true,
