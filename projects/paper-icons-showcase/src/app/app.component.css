@@ -24,5 +24,6 @@ tbody tr {
 }
 
 dialog {
-  bottom: 0vh;
+  bottom: 0;
+  position: sticky;
 }
