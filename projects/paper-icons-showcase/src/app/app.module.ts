@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {
   PaperBadges,
+  PaperIcon,
   PaperIconsModule,
   PaperIconsRegistry,
   PaperItems,
-  utils,
 } from 'paper-icons';
 import { AppComponent } from './app.component';
 
@@ -17,9 +17,11 @@ import { AppComponent } from './app.component';
 })
 export class AppModule {
   constructor(private paperIconRegistry: PaperIconsRegistry) {
-    const icons = Object.values(PaperBadges).concat(Object.values(PaperItems));
-    if (utils.hasPaperIcons(icons)) {
-      this.paperIconRegistry.registerIcons(icons);
-    }
+    this.paperIconRegistry.registerIcons(
+      Object.values((PaperBadges as unknown) as PaperIcon[]),
+    );
+    this.paperIconRegistry.registerIcons(
+      Object.values((PaperItems as unknown) as PaperIcon[]),
+    );
   }
 }
