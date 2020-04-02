@@ -1,6 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center" class="panel">
   <h1>Welcome to {{ title }}!</h1>
+
+  <summary>
+    <div class="dialogue-text-wrapper">
+      <div class="dialogue-text">
+        Welcome to the demo site for PaperIcons, the Paper Mario inspired icon
+        pack!
+      </div>
+    </div>
+  </summary>
 </div>
 <h2 class="panel" style="margin-top: 2rem; text-align: center;">
   Available Icons
@@ -23,7 +32,11 @@
           >
         </td>
         <td>
-          <paper-icon name="{{ icon }}" size="medium"></paper-icon>
+          <paper-icon
+            name="{{ icon }}"
+            size="medium"
+            (mouseover)="wobble($event)"
+          ></paper-icon>
         </td>
         <td>Badge</td>
       </tr>
@@ -35,7 +48,11 @@
           >
         </td>
         <td>
-          <paper-icon name="{{ icon }}" size="medium"></paper-icon>
+          <paper-icon
+            name="{{ icon }}"
+            size="medium"
+            (mouseover)="wobble($event)"
+          ></paper-icon>
         </td>
         <td>Item</td>
       </tr>
