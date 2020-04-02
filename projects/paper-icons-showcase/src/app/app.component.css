@@ -1,5 +1,5 @@
 paper-icon {
-  margin-right: 20px;
+  cursor: pointer;
 }
 
 .panel {
@@ -21,4 +21,8 @@ th {
 
 tbody tr {
   border-bottom: thin dotted lightblue;
+}
+
+dialog {
+  bottom: 0vh;
 }

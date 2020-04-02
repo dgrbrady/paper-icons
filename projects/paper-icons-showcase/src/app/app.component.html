@@ -3,11 +3,9 @@
   <h1>Welcome to {{ title }}!</h1>
 
   <summary>
-    <div class="dialogue-text-wrapper">
-      <div class="dialogue-text">
-        Welcome to the demo site for PaperIcons, the Paper Mario inspired icon
-        pack!
-      </div>
+    <div class="dialog-text">
+      Welcome to the demo site for PaperIcons, the Paper Mario inspired icon
+      pack!
     </div>
   </summary>
 </div>
@@ -26,32 +24,36 @@
     <tbody>
       <tr *ngFor="let icon of badgeIcons">
         <td>
-          <code
+          <code id="{{ icon }}_example"
             >&lt;paper-icon name="{{ icon }}"
             size="medium">&lt;/paper-icon></code
           >
         </td>
         <td>
           <paper-icon
+            #badgeIcon
             name="{{ icon }}"
             size="medium"
             (mouseover)="wobble($event)"
+            (click)="copyToClipBoard(badgeIcon)"
           ></paper-icon>
         </td>
         <td>Badge</td>
       </tr>
       <tr *ngFor="let icon of itemIcons">
         <td>
-          <code
+          <code id="{{ icon }}_example"
             >&lt;paper-icon name="{{ icon }}"
             size="medium">&lt;/paper-icon></code
           >
         </td>
         <td>
           <paper-icon
+            #itemIcon
             name="{{ icon }}"
             size="medium"
             (mouseover)="wobble($event)"
+            (click)="copyToClipBoard(itemIcon)"
           ></paper-icon>
         </td>
         <td>Item</td>
@@ -59,3 +61,6 @@
     </tbody>
   </table>
 </div>
+<dialog #dialog
+  ><span class="dialog-text">Example copied to clipboard!</span></dialog
+>
