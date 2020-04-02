@@ -24,17 +24,22 @@ export class PaperIconComponent implements OnInit, OnDestroy {
   private document: Document;
   private svgIcon: SVGElement;
   private observer: MutationObserver;
+  private iconName: string;
 
   @Input() size: 'small' | 'medium' | 'large' = 'large';
 
   @Input()
   set name(iconName: string) {
+    this.iconName = iconName;
     if (this.svgIcon) {
       this.element.nativeElement.removeChild(this.svgIcon);
     }
     const svgData = this.paperIconRegistry.getIcon(iconName);
     this.svgIcon = this.svgElementFromString(svgData);
     this.renderer2.appendChild(this.element.nativeElement, this.svgIcon);
+  }
+  get name() {
+    return this.iconName;
   }
 
   constructor(
