@@ -15,12 +15,7 @@
             "tsConfig": "projects/paper-icons/tsconfig.lib.json",
             "project": "projects/paper-icons/ng-package.json"
           }
-        ,          "configurations": {
-            "production": {
-              "tsConfig": "projects/paper-icons/tsconfig.lib.prod.json"
-            }
-          }
-},
+        },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -58,7 +53,7 @@
             "main": "projects/paper-icons-showcase/src/main.ts",
             "polyfills": "projects/paper-icons-showcase/src/polyfills.ts",
             "tsConfig": "projects/paper-icons-showcase/tsconfig.app.json",
-            "aot": true,
+            "aot": false,
             "assets": [
               "projects/paper-icons-showcase/src/favicon.ico",
               "projects/paper-icons-showcase/src/assets"
@@ -81,6 +76,7 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
+              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
