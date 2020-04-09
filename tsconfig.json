@@ -24,6 +24,12 @@
       ],
       "paper-icons/*": [
         "dist/paper-icons/*"
+      ],
+      "paper-ui": [
+        "dist/paper-ui"
+      ],
+      "paper-ui/*": [
+        "dist/paper-ui/*"
       ]
     }
   },
