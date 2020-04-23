@@ -1,14 +1,14 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center" class="panel">
+<div class="panel">
   <h1>Welcome to {{ title }}!</h1>
 
   <summary>
-    <div class="dialog-text">
+    <paper-dialog speed="slow" tone="scared">
       Welcome to the demo site for PaperIcons, the Paper Mario inspired icon
       pack!
-    </div>
+    </paper-dialog>
   </summary>
 </div>
+
 <h2 class="panel" style="margin-top: 2rem; text-align: center;">
   Available Icons
 </h2>
@@ -61,6 +61,8 @@
     </tbody>
   </table>
 </div>
-<dialog #dialog
-  ><span class="dialog-text">Example copied to clipboard!</span></dialog
->
+<div #message class="message panel">
+  <paper-dialog speed="normal" #clipboardDialog>
+    Example copied to clipboard!
+  </paper-dialog>
+</div>

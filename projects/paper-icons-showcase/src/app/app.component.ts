@@ -8,6 +8,7 @@ import {
 } from '@angular/core';
 import anime from 'animejs';
 import { PaperBadges, PaperIconComponent, PaperItems } from 'paper-icons';
+import { PaperDialogComponent } from 'projects/paper-ui/src/lib/components/paper-dialog/paper-dialog.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -18,37 +19,16 @@ export class AppComponent implements OnInit {
   itemIcons = Object.values(PaperItems).map(icon => icon.name);
   badgeIcons = Object.values(PaperBadges).map(icon => icon.name);
 
-  @ViewChild('dialog', { static: false }) dialog: ElementRef<HTMLDialogElement>;
+  @ViewChild('clipboardDialog', { static: true })
+  clipboardDialog: PaperDialogComponent;
+  @ViewChild('message', { static: false }) message: ElementRef<HTMLDivElement>;
 
   constructor(
     private elRef: ElementRef,
     @Inject(DOCUMENT) private document: Document,
   ) {}
 
-  ngOnInit() {
-    const textElement: HTMLElement = this.elRef.nativeElement.querySelector(
-      '.dialog-text',
-    );
-    // wrap each letter in a span so we can animate it
-    const letters = this.getLettersForDialog(textElement);
-    const timelineDuration = letters.length * 1.25;
-    const timeline = anime.timeline({ duration: timelineDuration });
-    letters.forEach(letter =>
-      timeline.add({
-        targets: letter,
-        opacity: [0, 1],
-      }),
-    );
-  }
-
-  private getLettersForDialog(textElement: Element) {
-    textElement.innerHTML = textElement.textContent.replace(
-      /\S/g,
-      '<span class="letter">$&</span>',
-    );
-    const letters = textElement.querySelectorAll('.letter');
-    return letters;
-  }
+  ngOnInit() {}
 
   wobble(event: MouseEvent) {
     const eventTarget = event.target as HTMLElement;
@@ -76,18 +56,10 @@ export class AppComponent implements OnInit {
     this.document.defaultView.navigator.clipboard.writeText(
       exampleCode.textContent,
     );
-    const textElement = this.dialog.nativeElement.querySelector('.dialog-text');
-    const letters = this.getLettersForDialog(textElement);
-    const timelineDuration = letters.length * 1.25;
-    const timeline = anime.timeline({ duration: timelineDuration });
-    letters.forEach(letter =>
-      timeline.add({
-        targets: letter,
-        opacity: [0, 1],
-        begin: () => (this.dialog.nativeElement.open = true),
-        complete: () =>
-          setTimeout(() => (this.dialog.nativeElement.open = false), 1200),
-      }),
-    );
+    this.message.nativeElement.style.opacity = '100';
+    this.clipboardDialog.restart();
+    setTimeout(() => {
+      this.message.nativeElement.style.opacity = '0';
+    }, 2000);
   }
 }

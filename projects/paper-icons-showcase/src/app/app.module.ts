@@ -7,11 +7,12 @@ import {
   PaperIconsRegistry,
   PaperItems,
 } from 'paper-icons';
+import { PaperUiModule } from '../../../paper-ui/src/public-api';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, PaperIconsModule],
+  imports: [BrowserModule, PaperIconsModule, PaperUiModule],
   providers: [],
   bootstrap: [AppComponent],
 })

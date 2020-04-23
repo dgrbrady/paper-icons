@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
-import { PaperUiComponent } from './paper-ui.component';
-
-
+import { PaperDialogModule } from 'projects/paper-ui/src/lib/components/paper-dialog/paper-dialog.module';
 
 @NgModule({
-  declarations: [PaperUiComponent],
-  imports: [
-  ],
-  exports: [PaperUiComponent]
+  declarations: [],
+  imports: [PaperDialogModule],
+  exports: [PaperDialogModule],
 })
-export class PaperUiModule { }
+export class PaperUiModule {}
