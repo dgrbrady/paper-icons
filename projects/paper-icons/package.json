@@ -1,6 +1,6 @@
 {
   "name": "paper-icons",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Icon pack containing various Paper Mario TTYD badges and items. I do not claim any rights to the images used in this library or the Paper Mario franchise. This is just a fun little icon pack not intended for commercial use.",
   "peerDependencies": {
     "@angular/common": "^8.2.0",
