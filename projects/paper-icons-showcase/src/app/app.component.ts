@@ -7,8 +7,12 @@ import {
   ViewChild,
 } from '@angular/core';
 import anime from 'animejs';
-import { PaperBadges, PaperIconComponent, PaperItems } from 'paper-icons';
-import { PaperDialogComponent } from 'projects/paper-ui/src/lib/components/paper-dialog/paper-dialog.component';
+import {
+  PaperBadges,
+  PaperItems,
+  PaperMDialogComponent,
+  PaperMIconComponent,
+} from '../../../ng-paper-m/src/public-api';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -20,7 +24,7 @@ export class AppComponent implements OnInit {
   badgeIcons = Object.values(PaperBadges).map(icon => icon.name);
 
   @ViewChild('clipboardDialog', { static: true })
-  clipboardDialog: PaperDialogComponent;
+  clipboardDialog: PaperMDialogComponent;
   @ViewChild('message', { static: false }) message: ElementRef<HTMLDivElement>;
 
   constructor(
@@ -51,7 +55,7 @@ export class AppComponent implements OnInit {
     });
   }
 
-  copyToClipBoard(icon: PaperIconComponent) {
+  copyToClipBoard(icon: PaperMIconComponent) {
     const exampleCode = this.document.querySelector(`#${icon.name}_example`);
     this.document.defaultView.navigator.clipboard.writeText(
       exampleCode.textContent,

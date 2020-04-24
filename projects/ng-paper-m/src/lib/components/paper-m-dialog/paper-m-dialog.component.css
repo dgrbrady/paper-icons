@@ -1,0 +1,16 @@
+:root {
+  --paper-m-dialog-scared-x: 10;
+  --paper-m-dialog-scared-y: 10;
+}
+@keyframes scared {
+  100% {
+    transform: translate(
+      var(--paper-m-dialog-scared-x),
+      var(--paper-m-dialog-scared-y)
+    );
+  }
+}
+
+.paper-m-dialog-tone-scared .paper-m-dialog-char {
+  animation: scared cubic-bezier(0.76, 0.05, 0.86, 0.06) 0.15s infinite;
+}

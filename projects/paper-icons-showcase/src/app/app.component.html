@@ -2,10 +2,10 @@
   <h1>Welcome to {{ title }}!</h1>
 
   <summary>
-    <paper-dialog speed="slow" tone="scared">
+    <paper-m-dialog speed="slow" tone="scared">
       Welcome to the demo site for PaperIcons, the Paper Mario inspired icon
       pack!
-    </paper-dialog>
+    </paper-m-dialog>
   </summary>
 </div>
 
@@ -25,36 +25,36 @@
       <tr *ngFor="let icon of badgeIcons">
         <td>
           <code id="{{ icon }}_example"
-            >&lt;paper-icon name="{{ icon }}"
-            size="medium">&lt;/paper-icon></code
+            >&lt;paper-m-icon name="{{ icon }}"
+            size="medium">&lt;/paper-m-icon></code
           >
         </td>
         <td>
-          <paper-icon
+          <paper-m-icon
             #badgeIcon
             name="{{ icon }}"
             size="medium"
             (mouseover)="wobble($event)"
             (click)="copyToClipBoard(badgeIcon)"
-          ></paper-icon>
+          ></paper-m-icon>
         </td>
         <td>Badge</td>
       </tr>
       <tr *ngFor="let icon of itemIcons">
         <td>
           <code id="{{ icon }}_example"
-            >&lt;paper-icon name="{{ icon }}"
-            size="medium">&lt;/paper-icon></code
+            >&lt;paper-m-icon name="{{ icon }}"
+            size="medium">&lt;/paper-m-icon></code
           >
         </td>
         <td>
-          <paper-icon
+          <paper-m-icon
             #itemIcon
             name="{{ icon }}"
             size="medium"
             (mouseover)="wobble($event)"
             (click)="copyToClipBoard(itemIcon)"
-          ></paper-icon>
+          ></paper-m-icon>
         </td>
         <td>Item</td>
       </tr>
@@ -62,7 +62,7 @@
   </table>
 </div>
 <div #message class="message panel">
-  <paper-dialog speed="normal" #clipboardDialog>
+  <paper-m-dialog speed="normal" #clipboardDialog>
     Example copied to clipboard!
-  </paper-dialog>
+  </paper-m-dialog>
 </div>

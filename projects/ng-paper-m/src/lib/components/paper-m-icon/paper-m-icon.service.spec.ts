@@ -1,12 +1,11 @@
 import { TestBed } from '@angular/core/testing';
+import { PaperMIconService } from './paper-m-icon.service';
 
-import { PaperUiService } from './paper-ui.service';
-
-describe('PaperUiService', () => {
+describe('PaperMIconService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: PaperUiService = TestBed.get(PaperUiService);
+    const service: PaperMIconService = TestBed.get(PaperMIconService);
     expect(service).toBeTruthy();
   });
 });
