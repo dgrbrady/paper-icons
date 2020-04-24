@@ -1,4 +1,3 @@
-import { DOCUMENT } from '@angular/common';
 import {
   AfterViewInit,
   ChangeDetectionStrategy,
@@ -6,7 +5,6 @@ import {
   Component,
   ElementRef,
   HostListener,
-  Inject,
   Input,
   Renderer2,
   ViewChild,
@@ -14,19 +12,19 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'paper-dialog',
-  templateUrl: './paper-dialog.component.html',
-  styleUrls: ['./paper-dialog.component.css'],
+  selector: 'paper-m-dialog',
+  templateUrl: './paper-m-dialog.component.html',
+  styleUrls: ['./paper-m-dialog.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
 })
-export class PaperDialogComponent implements AfterViewInit {
+export class PaperMDialogComponent implements AfterViewInit {
   @ViewChild('dialogContent', { static: true }) dialogContent: ElementRef<
     HTMLSpanElement
   >;
   characters: string[] = [];
   private textSpeed = 30;
-  toneClassName = 'paper-dialog-tone-neutral';
+  toneClassName = 'paper-m-dialog-tone-neutral';
   private toneState: string;
   @Input() set speed(speed: 'slow' | 'normal' | 'fast' | number) {
     this.textSpeed =
@@ -42,7 +40,7 @@ export class PaperDialogComponent implements AfterViewInit {
   }
 
   @Input() set tone(tone: string) {
-    this.toneClassName = `paper-dialog-tone-${tone}`;
+    this.toneClassName = `paper-m-dialog-tone-${tone}`;
     this.toneState = tone;
     this.cdRef.detectChanges();
   }
@@ -51,11 +49,7 @@ export class PaperDialogComponent implements AfterViewInit {
     return this.toneState;
   }
 
-  constructor(
-    @Inject(DOCUMENT) private document: Document,
-    private renderer2: Renderer2,
-    private cdRef: ChangeDetectorRef,
-  ) {}
+  constructor(private renderer2: Renderer2, private cdRef: ChangeDetectorRef) {}
 
   ngAfterViewInit() {
     this.wrapCharacters(this.dialogContent.nativeElement.textContent);
@@ -74,7 +68,7 @@ export class PaperDialogComponent implements AfterViewInit {
     this.dialogContent.nativeElement.textContent = '';
     [...text].forEach((char, index, array) => {
       const span: HTMLSpanElement = this.renderer2.createElement('span');
-      this.renderer2.addClass(span, 'paper-dialog-char');
+      this.renderer2.addClass(span, 'paper-m-dialog-char');
       const textNode = this.renderer2.createText(
         char === ' ' ? '\u0020' : char,
       );
@@ -100,8 +94,8 @@ export class PaperDialogComponent implements AfterViewInit {
       const randomYSeed = Math.random() < 0.5 ? -1 : 1;
       const randomX = randomXSeed * Math.random() * 4;
       const randomY = randomYSeed * Math.random() * 4;
-      span.style.setProperty('--paper-dialog-scared-x', randomX + 'px');
-      span.style.setProperty('--paper-dialog-scared-y', randomY + 'px');
+      span.style.setProperty('--paper-m-dialog-scared-x', randomX + 'px');
+      span.style.setProperty('--paper-m-dialog-scared-y', randomY + 'px');
     }
     setInterval(setStyleProperties, 0);
   }

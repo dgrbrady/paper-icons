@@ -31,9 +31,7 @@
               "projects/paper-icons/tsconfig.lib.json",
               "projects/paper-icons/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -58,9 +56,7 @@
               "projects/paper-icons-showcase/src/favicon.ico",
               "projects/paper-icons-showcase/src/assets"
             ],
-            "styles": [
-              "projects/paper-icons-showcase/src/styles.css"
-            ],
+            "styles": ["projects/paper-icons-showcase/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -123,9 +119,7 @@
               "projects/paper-icons-showcase/src/favicon.ico",
               "projects/paper-icons-showcase/src/assets"
             ],
-            "styles": [
-              "projects/paper-icons-showcase/src/styles.css"
-            ],
+            "styles": ["projects/paper-icons-showcase/src/styles.css"],
             "scripts": []
           }
         },
@@ -137,9 +131,7 @@
               "projects/paper-icons-showcase/tsconfig.spec.json",
               "projects/paper-icons-showcase/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -156,40 +148,39 @@
         }
       }
     },
-    "paper-ui": {
+    "ng-paper-m": {
       "projectType": "library",
-      "root": "projects/paper-ui",
-      "sourceRoot": "projects/paper-ui/src",
-      "prefix": "lib",
+      "root": "projects/ng-paper-m",
+      "sourceRoot": "projects/ng-paper-m/src",
+      "prefix": "paper-m",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/paper-ui/tsconfig.lib.json",
-            "project": "projects/paper-ui/ng-package.json"
+            "tsConfig": "projects/ng-paper-m/tsconfig.lib.json",
+            "project": "projects/ng-paper-m/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/paper-ui/src/test.ts",
-            "tsConfig": "projects/paper-ui/tsconfig.spec.json",
-            "karmaConfig": "projects/paper-ui/karma.conf.js"
+            "main": "projects/ng-paper-m/src/test.ts",
+            "tsConfig": "projects/ng-paper-m/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-paper-m/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/paper-ui/tsconfig.lib.json",
-              "projects/paper-ui/tsconfig.spec.json"
+              "projects/ng-paper-m/tsconfig.lib.json",
+              "projects/ng-paper-m/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "paper-icons"
 }
