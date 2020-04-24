@@ -7,12 +7,12 @@ import {
   ViewChild,
 } from '@angular/core';
 import anime from 'animejs';
-import { PaperMDialogComponent } from '../../../ng-paper-m/src/public-api';
 import {
   PaperBadges,
-  PaperIconComponent,
   PaperItems,
-} from '../../../paper-icons/src/public-api';
+  PaperMDialogComponent,
+  PaperMIconComponent,
+} from '../../../ng-paper-m/src/public-api';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -55,7 +55,7 @@ export class AppComponent implements OnInit {
     });
   }
 
-  copyToClipBoard(icon: PaperIconComponent) {
+  copyToClipBoard(icon: PaperMIconComponent) {
     const exampleCode = this.document.querySelector(`#${icon.name}_example`);
     this.document.defaultView.navigator.clipboard.writeText(
       exampleCode.textContent,

@@ -25,36 +25,36 @@
       <tr *ngFor="let icon of badgeIcons">
         <td>
           <code id="{{ icon }}_example"
-            >&lt;paper-icon name="{{ icon }}"
-            size="medium">&lt;/paper-icon></code
+            >&lt;paper-m-icon name="{{ icon }}"
+            size="medium">&lt;/paper-m-icon></code
           >
         </td>
         <td>
-          <paper-icon
+          <paper-m-icon
             #badgeIcon
             name="{{ icon }}"
             size="medium"
             (mouseover)="wobble($event)"
             (click)="copyToClipBoard(badgeIcon)"
-          ></paper-icon>
+          ></paper-m-icon>
         </td>
         <td>Badge</td>
       </tr>
       <tr *ngFor="let icon of itemIcons">
         <td>
           <code id="{{ icon }}_example"
-            >&lt;paper-icon name="{{ icon }}"
-            size="medium">&lt;/paper-icon></code
+            >&lt;paper-m-icon name="{{ icon }}"
+            size="medium">&lt;/paper-m-icon></code
           >
         </td>
         <td>
-          <paper-icon
+          <paper-m-icon
             #itemIcon
             name="{{ icon }}"
             size="medium"
             (mouseover)="wobble($event)"
             (click)="copyToClipBoard(itemIcon)"
-          ></paper-icon>
+          ></paper-m-icon>
         </td>
         <td>Item</td>
       </tr>
