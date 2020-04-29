@@ -9,6 +9,39 @@
   </summary>
 </div>
 
+<h2 class="panel" style="margin-top: 1rem; text-align: center;">Buttons</h2>
+<div class="panel" style="margin-top: 1rem;">
+  <button pm-button class="row">
+    This is a paper button
+  </button>
+  <button pm-button class="row">
+    This is a button with an icon and text
+    <paper-m-icon name="all_or_nothing_p" size="medium"></paper-m-icon>
+  </button>
+  <div class="row">
+    This button is just an icon
+    <button pm-button pmIconButton>
+      <paper-m-icon name="bump_attack" size="medium"></paper-m-icon>
+    </button>
+  </div>
+  <button pm-button activeColor="purple" class="row">
+    This button has a custom color while active
+  </button>
+  <button pm-button disabled class="row">
+    This button is disabled
+  </button>
+  <button pm-button pmSuccessButton class="row">
+    This is a success button
+  </button>
+  <button pm-button pmWarningButton class="row">
+    This is a warning button
+  </button>
+  <button pm-button pmDangerButton class="row">
+    This is a danger button
+  </button>
+  <a href="#" (click)="$event.preventDefault()" pm-button>This is a link</a>
+</div>
+
 <h2 class="panel" style="margin-top: 2rem; text-align: center;">
   Available Icons
 </h2>
@@ -24,10 +57,9 @@
     <tbody>
       <tr *ngFor="let icon of badgeIcons">
         <td>
-          <code id="{{ icon }}_example"
-            >&lt;paper-m-icon name="{{ icon }}"
-            size="medium">&lt;/paper-m-icon></code
-          >
+          <code id="{{ icon }}_example">
+            &lt;paper-m-icon name="{{ icon }}" size="medium">&lt;/paper-m-icon>
+          </code>
         </td>
         <td>
           <paper-m-icon
@@ -42,10 +74,9 @@
       </tr>
       <tr *ngFor="let icon of itemIcons">
         <td>
-          <code id="{{ icon }}_example"
-            >&lt;paper-m-icon name="{{ icon }}"
-            size="medium">&lt;/paper-m-icon></code
-          >
+          <code id="{{ icon }}_example">
+            &lt;paper-m-icon name="{{ icon }}" size="medium">&lt;/paper-m-icon>
+          </code>
         </td>
         <td>
           <paper-m-icon

@@ -1,0 +1,24 @@
+:host {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px 0px rgb(15, 15, 15);
+  outline: none;
+  display: inline-flex;
+  flex: initial;
+  align-items: center;
+  border: none;
+  color: inherit;
+  padding: 5px 10px;
+}
+
+:host:active {
+  box-shadow: inset 0px 0px 2px black;
+}
+
+:host:disabled {
+  cursor: not-allowed;
+  background-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.26);
+}

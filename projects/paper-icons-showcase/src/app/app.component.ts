@@ -27,10 +27,7 @@ export class AppComponent implements OnInit {
   clipboardDialog: PaperMDialogComponent;
   @ViewChild('message', { static: false }) message: ElementRef<HTMLDivElement>;
 
-  constructor(
-    private elRef: ElementRef,
-    @Inject(DOCUMENT) private document: Document,
-  ) {}
+  constructor(@Inject(DOCUMENT) private document: Document) {}
 
   ngOnInit() {}
 
