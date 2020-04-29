@@ -2,6 +2,15 @@ paper-m-icon {
   cursor: pointer;
 }
 
+h2.panel {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+h2.panel ~ div.panel {
+  margin-top: 1rem;
+}
+
 .panel {
   background-color: #ebebeb;
   padding: 10px 0 10px 0;

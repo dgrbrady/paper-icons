@@ -2,15 +2,15 @@
   <h1>Welcome to {{ title }}!</h1>
 
   <summary>
-    <paper-m-dialog speed="slow" tone="scared">
+    <paper-m-dialog speed="slow">
       Welcome to the demo site for PaperIcons, the Paper Mario inspired icon
       pack!
     </paper-m-dialog>
   </summary>
 </div>
 
-<h2 class="panel" style="margin-top: 1rem; text-align: center;">Buttons</h2>
-<div class="panel" style="margin-top: 1rem;">
+<h2 class="panel">Buttons</h2>
+<div class="panel">
   <button pm-button class="row">
     This is a paper button
   </button>
@@ -42,10 +42,15 @@
   <a href="#" (click)="$event.preventDefault()" pm-button>This is a link</a>
 </div>
 
-<h2 class="panel" style="margin-top: 2rem; text-align: center;">
+<h2 class="panel">Curtains</h2>
+<div class="panel">
+  <pm-curtains></pm-curtains>
+</div>
+
+<h2 class="panel">
   Available Icons
 </h2>
-<div class="panel" style="margin-top: 1rem;">
+<div class="panel">
   <table style="width: 100%;">
     <thead>
       <tr>
