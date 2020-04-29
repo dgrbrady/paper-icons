@@ -30,3 +30,9 @@ tbody tr {
   opacity: 0;
   transition: opacity 500ms;
 }
+
+.row {
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+}
