@@ -1,1 +1,107 @@
-<p>paper-m-curtains works!</p>
+<div #curtains class="curtains">
+  <header>
+    <div class="tabs">
+      <div
+        *ngFor="let tab of tabs; index as i"
+        class="tab"
+        [class.active]="!!tab.active"
+        (click)="setActiveTab(i)"
+      >
+        {{ tab.label }}
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" id="curtainHeader">
+      <defs>
+        <clipPath id="trimClipPath">
+          <path
+            d="m 0 0
+          h 1800
+          v 75
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      a 100 150 0 0 1 -100 0
+      "
+          />
+        </clipPath>
+      </defs>
+      <path
+        [attr.stroke]="trimColor"
+        id="curtainHeaderTrim"
+        d="m 0 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      a 100 150 0 0 0 100 0
+      "
+      />
+    </svg>
+  </header>
+  <div #curtainBody id="curtainBodyContainer">
+    <div class="curtain-half" id="curtainHalfLeft">
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+    </div>
+    <div class="curtain-half" id="curtainHalfRight">
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+      <div class="curtain-stripe"></div>
+    </div>
+  </div>
+  <div #tabContainer id="contentContainer">
+    <ng-content select="pm-curtain-tab"></ng-content>
+  </div>
+</div>

@@ -4,7 +4,6 @@ import {
   HostBinding,
   HostListener,
   Input,
-  ViewEncapsulation,
 } from '@angular/core';
 
 @Component({
@@ -13,7 +12,6 @@ import {
   exportAs: 'pm-button',
   templateUrl: './paper-m-button.component.html',
   styleUrls: ['./paper-m-button.component.css'],
-  encapsulation: ViewEncapsulation.Emulated,
 })
 export class PaperMButtonComponent {
   constructor(private elRef: ElementRef<HTMLElement>) {}
