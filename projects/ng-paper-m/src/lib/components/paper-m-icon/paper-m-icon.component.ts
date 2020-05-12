@@ -3,12 +3,12 @@ import {
   ChangeDetectionStrategy,
   Component,
   ElementRef,
+  HostBinding,
   Inject,
   Input,
-  OnDestroy,
-  OnInit,
   Optional,
   Renderer2,
+  ViewEncapsulation,
 } from '@angular/core';
 import { PaperMIconService } from './paper-m-icon.service';
 
@@ -19,11 +19,11 @@ import { PaperMIconService } from './paper-m-icon.service';
   `,
   styleUrls: ['./paper-m-icon.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  encapsulation: ViewEncapsulation.None,
 })
-export class PaperMIconComponent implements OnInit, OnDestroy {
+export class PaperMIconComponent {
   private document: Document;
   private svgIcon: SVGElement;
-  private observer: MutationObserver;
   private iconName: string;
 
   @Input() size: 'small' | 'medium' | 'large' = 'large';
@@ -42,6 +42,17 @@ export class PaperMIconComponent implements OnInit, OnDestroy {
     return this.iconName;
   }
 
+  @HostBinding('class') pmIcon = 'pm-icon';
+  @HostBinding('class.pm-icon-small') get isSmall() {
+    return this.size === 'small';
+  }
+  @HostBinding('class.pm-icon-medium') get isMedium() {
+    return this.size === 'medium';
+  }
+  @HostBinding('class.pm-icon-large') get isLarge() {
+    return this.size === 'large';
+  }
+
   constructor(
     private element: ElementRef,
     private paperIconRegistry: PaperMIconService,
@@ -50,32 +61,6 @@ export class PaperMIconComponent implements OnInit, OnDestroy {
   ) {
     // https://stackoverflow.com/questions/49513359/could-not-resolve-type-document-in-angular5
     this.document = document as Document;
-  }
-
-  ngOnDestroy() {
-    this.observer.disconnect();
-  }
-
-  ngOnInit() {
-    this.observer = new MutationObserver(mutations => {
-      mutations.forEach(mutation => {
-        if (mutation.attributeName === 'ng-reflect-size') {
-          const svg = mutation.target.parentElement.querySelector('svg');
-          const className =
-            this.size === 'small'
-              ? 'small'
-              : this.size === 'medium'
-              ? 'medium'
-              : 'large';
-          this.renderer2.addClass(svg, className);
-        }
-      });
-    });
-    this.observer.observe(this.element.nativeElement, {
-      attributes: true,
-      childList: true,
-      subtree: true,
-    });
   }
 
   private svgElementFromString(svgContent: string): SVGElement {

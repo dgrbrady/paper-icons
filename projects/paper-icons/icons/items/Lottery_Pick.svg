@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Lottery_Pick.svg)"/>
-<defs>
-<pattern id="pattern-Lottery_Pick.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Lottery_Pick.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Lottery_Pick.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAUVBMVEUAAACGVTlrVRlKAAicjUTCqmr3hpy9WWprCBn//5xrGCHvMVKHEiX3jpzFJEL81pyBECBrMSH0aYPmfZTNxnD5uoP375SQXz3OZXPWvnODLDnRza5uAAAAAXRSTlMAQObYZgAAANpJREFUeF6N1EeuxEAQAtCpDs6Tf77/QT+WVUJig1k/UfSmL5J6OZW655SjNG67TV5WZBzXB6RzfyOgkxUZBkAjd/ceIFdEdupdMOQFqJ3qnMx9RnIfpeyUu8z9MzuNm2eVCdWpTPczMNfdpZxELqlaawfTTt1IZ2T7mE/JK1xROYlceu8ApRTXWemMjMMBn5EslZ0glE+AgINnekTcqsgAZCnlRkepDrJmoXlRpNOdiY98sU87s/SA4vR6lupdldZxZ4Tsy2hncJ+RvGukcdz5+03n/2gfOhtl/2NLFsxzyffqAAAAAElFTkSuQmCC"/>
-</defs>
-</svg>

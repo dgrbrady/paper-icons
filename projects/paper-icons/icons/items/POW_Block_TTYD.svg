@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-POW_Block_TTYD.svg)"/>
-<defs>
-<pattern id="pattern-POW_Block_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-POW_Block_TTYD.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-POW_Block_TTYD.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAHlBMVEUAAABKHBmMLi3OQUK1OToxMTFBIyExzjEZxub/vgDVRI7VAAAAAXRSTlMAQObYZgAAAIhJREFUeAFjYGBgFEQBAgwQMUxRQQwAUihkjAIUBQWAgs6ogiZAQYRChFIGQWF0QUMcgqHB6IKmoTgEMQEOQcFUdKFAQaBgeDkQhHZ0dLRGTgVBPIKloaFAwdAI2gkibCckiNAeSqEgxJszgYAkQeJDnvjYJD6FYE1gWJMi1kSLLXljzwhYswwAahLRpJGDWOwAAAAASUVORK5CYII="/>
-</defs>
-</svg>

@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { PaperMIconService } from 'projects/ng-paper-m/src/public-api';
-import { PaperBadges, PaperItems } from 'projects/paper-icons/src/lib/icons';
-import { PaperIcon } from 'projects/paper-icons/src/public-api';
+import { PaperBadges, PaperItems } from './icons';
 import { PaperMIconComponent } from './paper-m-icon.component';
+import { PaperIcon } from './paper-m-icon.types';
 
 @NgModule({
   declarations: [PaperMIconComponent],

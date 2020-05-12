@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Routing_Slip.svg)"/>
-<defs>
-<pattern id="pattern-Routing_Slip.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Routing_Slip.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Routing_Slip.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAANlBMVEUAAAAATQAAmgBMf0xKTUpziXM6XTrm4+aZsZmstqyZypmAgIAAZgAAcQCcmpwAZQAAbQBMskxkVKXGAAAAAXRSTlMAQObYZgAAAJhJREFUeF7t1LsOwzAIhtH+gG9Jr+//srWVKCKOEe3QTvkGT0eGicuXwQ4D50vgeTN6aAiAWsxQMYcaQcnVEWPXAqmHr2nKQN4C51JGcEopMact5PqUaED9Y4PBgBmqZMKuv0Lp+vHoc8dzR1nz4b31KRSZfbi4IwzlACVSzYciNIRdIjIbMO6qbgRBZugu6dVIOf+G61z2BglxFu38ejkPAAAAAElFTkSuQmCC"/>
-</defs>
-</svg>

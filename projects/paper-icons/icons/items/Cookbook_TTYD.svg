@@ -1,9 +1,0 @@
-<svg width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="30" fill="url(#pattern-Cookbook_TTYD.svg)"/>
-<defs>
-<pattern id="pattern-Cookbook_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Cookbook_TTYD.svg" transform="scale(0.025 0.0333333)"/>
-</pattern>
-<image id="image-Cookbook_TTYD.svg" width="40" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAeCAMAAABpA6zvAAAAP1BMVEX///9SGAhSHgjOdSmfUB6kVh6QRhjGbSl4NBJ7NhJSHAhyQzOUbmCEWUq1moxrLBB7STakfGWQY07OrpRSIAgfKeAhAAAAAXRSTlMAQObYZgAAANhJREFUeAGtkQW2wlAMBZmXWkhw9r9V3G7t61Clc6ILhXHKYt5TUz2rLtQ9APEKNNZWXWWK98Wr1wAVtZm745doZnU/N7gZtddXg/p6cbgHZCkF1vdEfqG2y+9+oCLXxGMwEC+eo/jrL5mMBZGrB5kZPBODFFgT608+AhbtWL3ERgJuzJy1QJiNJM4gxQvSXFsuUFv2vCRSEz8LJIWIzF5AnntSLq4GBLa7UcS7i+PoCJlFAu4P4wx2spsQtxJwRtyJ9y+iePM1lm+JEnB+3kXFaRbKcoKjWGdBRxzU9YkFDQAAAABJRU5ErkJggg=="/>
-</defs>
-</svg>

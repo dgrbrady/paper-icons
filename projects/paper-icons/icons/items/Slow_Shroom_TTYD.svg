@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Slow_Shroom_TTYD.svg)"/>
-<defs>
-<pattern id="pattern-Slow_Shroom_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Slow_Shroom_TTYD.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Slow_Shroom_TTYD.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAllBMVEX///9aHAjOPFL/4+daJDFaJELOmlpCFAj/14TOaXuUWTGURVrOorWteUKlNEKEKDnew8b3196ESSGEJCGEVTH/ipyUYXvGllqlMDnWpmPWtr1aHBBaJDljMEp7SVqEWWuMYXO1jpzeVWtrNEpaICljJEJjKEJzRSlzLEKUMEpzSVp7RVqldUKUbXutdYTGjpzesmvnvnNQQ44lAAAAAXRSTlMAQObYZgAAAWVJREFUeF6l0deOwyAQQFEPzbWk97q9l///uZ0xDvGAk9Vqr/yA4ICwHQXppuh6mvUbu6XHdpm9v+ws2R0OjHJ3HOhz+8HRSe5m0jrXQM5QBq6QUvP2UhYoudsWNOslUW5J8vPkyocraXd7LoRDySW9R5PnXu3s7AQ1VQyxDw4/ac5e/Ax1OsXyrstpJtUO6rapk9w5yRbcSp7yjeTYkUgpYpR2dSAu+qX/g3l645Xm/TAXXnkfhLEQIyxro7EQACFcNBBcDRxD8H3wwAV4LVASeuh88GfaDaNyaZImsyxHQNd50vre/UNVCZEBwDxhzQEgE1Vdo2OQ1uJli2LaRVDUCqGVStUVgEEwid+I0WCC0ABUSil0NoUBEIjjRwtjhBiAwiLX3WZzgnEAI94JTjxIIIR0NXbHfuhe1g6uwuQ7aftKLkKTsP4Es14YSgMOclkyVpbMMYnWtJGyLmwNXuvoYl3GwQ/pgiaeDWLIsQAAAABJRU5ErkJggg=="/>
-</defs>
-</svg>

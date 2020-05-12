@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Blue_Potion.svg)"/>
-<defs>
-<pattern id="pattern-Blue_Potion.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Blue_Potion.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Blue_Potion.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAABnRSTlMAAAAAAABupgeRAAACtElEQVR4Ae3YA7AbURTG8a1tt6MOa9vtqLZt27Zt27Zt23aD2m5vv81Jz2yc3NyUb+ffPu9vvvv8tL/kytzAz36HyqmFS/eZO/P0bS/hFRhWpmZuNPKDEJzJkPFSDyct0WXh9hPe4UqdpoTkqFH5TlOo1PVGcvBQaD++eDTPXXL86vLtJ+TnSsDbX+kteiLC4L8eZhUJun4xjFt7gfF/qL5kEuAJVjya1WSlerDqCvNo9XCHqetuC4GsNviyEIc+ik02eOKNDwjP3GL+pOy0+UaYSPBbD/CNN1/x/Dbj16mEMZdh4QHGXIFXeCPUjOa5RvitOxgRzKODVct0mvJCCGS8Tv9szv1Pyy6/p0ygg/+8YnjO9hMEH7V8RcL2CDzU9vBb1Grzcwo2wfx5Ja8ikLBR9e0fCB537lOR5S+4zJNNFGwFn9B8ziD9hBHBkqfNKko23gSParvPPmjL3fflt39ABVe8QnkWv0CpJ5jQ8gP38Ar4Xyu1SB6O22ghYJRhzhMjjEe8w7gYRjIwSAq8ESYy3cwnCF7SvrdR1FaXKw09gFeg0RGLTWQ4ABWlnG5iGOGE6aap55uITDbahFhFGMqjo9Y7JAMn7rIdsLH11+0w1sNLMPAuitpO9yI1uhC+1lmt0mmt2KFKg646f2yjgOY6hXs5wbG633CFUcAf2wzHqDjaSa2y8SndDrv9g51HS55zh/0v/IeX738SLBy3/21qzaW3dK+Vp15FbXY5R99LKZqfonI2Ok5p+XdpuTehSj1O8WkrhuFplQ5R8DiGJRfz+7jOCiti1U94+S4TqzIf2NiNrW7t8pNv47QpHHLrUVfRos0mkAiLUWAqw1zMWlOTDT+NcABcjp7bUfn5Jr3FeqlbLERRG+2KWGIsClz1wHP4OopSVB7NKf6zBPOSqb2UYD8AkWdIeG85mwwAAAAASUVORK5CYII="/>
-</defs>
-</svg>

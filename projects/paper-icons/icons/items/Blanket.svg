@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Blanket.svg)"/>
-<defs>
-<pattern id="pattern-Blanket.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Blanket.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Blanket.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAbFBMVEUAAACnUEQ6GBnebVpwNC6MQjmlTUJjGgqIQDljLSlvMi2EJBBgKR6UNSHIXUnWaVpCHCEhCABCEQVzIBDOYUqcOCO1V0lSJCFaKCl3ODF7OTGWOSiGPzmcPSmfSzysRzSyTTmtUUqyVkm1WUqVWdYhAAAAAXRSTlMAQObYZgAAAP9JREFUeF7N08mOg0AMhOFU2Q1kz+z7/v7vOFik1EKJIZeR5r9w+VQ+AIt/FMmLVO1Cp1JXALhP22Cm0DSrRJJ8FlP3ZVlldbQzQTB1yk9gOQ+h43KwbDGqzi2JxAhmDnTrJEl+TQzanuTcYZChBWlZThcMh+nBQlKHJweLBncpHI4djrCbGYQudzODrst7232+bbcfyaBR0G7XQ+9nB1HhXai2XW82+WBABLy+6htJkMOjwjjd9jJ6fP2WI0YfLvlg5n7TR+Xueg8/rJAww0sPHWaAcwgWPZH5143o+B9yBPO3vRSUJFdNg7mflTUHMid6quEUTHVtkZa4JKm/7BdeDQ7vjOAoUAAAAABJRU5ErkJggg=="/>
-</defs>
-</svg>

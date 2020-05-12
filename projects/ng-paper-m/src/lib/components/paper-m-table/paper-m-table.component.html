@@ -1,0 +1,21 @@
+<thead>
+  <tr>
+    <th *ngFor="let column of columns">{{ column.label }}</th>
+  </tr>
+</thead>
+<tbody pmTbody>
+  <tr *ngFor="let row of displayedRows">
+    <td *ngFor="let column of columns">{{ row[column.key] }}</td>
+  </tr>
+</tbody>
+<tfoot *ngIf="footer">
+  <tr>
+    <ng-container *ngFor="let obj of footer | keyvalue">
+      <th>{{ obj.key }}</th>
+      <td *ngFor="let value of obj.value">
+        {{ value }}
+      </td>
+    </ng-container>
+  </tr>
+</tfoot>
+<ng-content></ng-content>
