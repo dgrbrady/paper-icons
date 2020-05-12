@@ -59,11 +59,36 @@
   </pm-curtains>
 </div>
 
+<h2 class="panel">Table</h2>
+<div class="panel">
+  <table
+    #exampleTable="pm-table"
+    pm-table
+    [columns]="[
+      { key: 'header1', label: 'Header 1' },
+      { key: 'header2', label: 'Header 2' },
+      { key: 'header3', label: 'Header 3' }
+    ]"
+    [rows]="[
+      { header1: 'A1', header2: 'A2', header3: 'A3' },
+      { header1: 'B1', header2: 'B2', header3: 'B3' },
+      { header1: 'C1', header2: 'C2', header3: 'C3' },
+      { header1: 'D1', header2: 'D2', header3: 'D3' },
+      { header1: 'E1', header2: 'E2', header3: 'E3' },
+      { header1: 'F1', header2: 'F2', header3: 'F3' },
+      { header1: 'G1', header2: 'G2', header3: 'G3' },
+      { header1: 'H1', header2: 'H2', header3: 'H3' }
+    ]"
+    [footer]="{ Footer: ['F1', 'F2'] }"
+  ></table>
+  <pm-paginator [table]="exampleTable"></pm-paginator>
+</div>
+
 <h2 class="panel">
   Available Icons
 </h2>
 <div class="panel">
-  <table style="width: 100%;">
+  <table pm-table>
     <thead>
       <tr>
         <th>Usage</th>

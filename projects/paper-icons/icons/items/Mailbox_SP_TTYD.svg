@@ -1,9 +1,0 @@
-<svg width="39" height="40" viewBox="0 0 39 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="39" height="40" fill="url(#pattern-Mailbox_SP_TTYD.svg)"/>
-<defs>
-<pattern id="pattern-Mailbox_SP_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Mailbox_SP_TTYD.svg" transform="scale(0.025641 0.025)"/>
-</pattern>
-<image id="image-Mailbox_SP_TTYD.svg" width="39" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAoCAMAAABKKxPSAAAAk1BMVEUAAABta23n4+ecmpyfn5+loqWkpKSqp6oxMDGOjo5+fH5qamqUkZSyr7J1c3VjZWPe3961s7W1trW7ubunpsbOz87W19aGiIZnZ2eqq6qMirV4dnhaWVopLITe2945ODmJh4lfX19jYWOtqq2LjIuMiox7eXtKSUq9vr2UlpSqp8Vzc3NaWZxoaKRSVVJXVVeJiYmu5Zn3AAAAAXRSTlMAQObYZgAAAPNJREFUeF7t0tdqxEAMhlFLU1229pLae3n/p8svMTHrBSdDSK6SD2Nk5jC6caHFT1LQshwZ8939tK/HjptyX/Rttz0+bP4H3b97eDroeZ77X/26e7vuKcSOqyRCo73WqK4BW/fqBog5hBW6QiWyS2u9F9de54BuYwy82CQ3m7G1dtl1zg2qCo7CagE3mZww8whiPfayOLnz8o5iKiAmIrwAaNwuBijhSCWRsCBjYBm99/WeK5lZGOthGuVDHaCuhcMhITCF8mgenYoDPjPGNE1ziRqDZHTIpI6SG6Kb1Me8Q8MUXBR38UU/7V7UZVVkuyKPvQMXH07R+sBs/AAAAABJRU5ErkJggg=="/>
-</defs>
-</svg>

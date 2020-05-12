@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Castle_Key.svg)"/>
-<defs>
-<pattern id="pattern-Castle_Key.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Castle_Key.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Castle_Key.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAMFBMVEUAAADvRWsIAABVFyN7IjWiLkecLUJjGCmMKDpKFB1mHC3FOVpSFiG3NU+1NVLOO1p2ssHwAAAAAXRSTlMAQObYZgAAAOFJREFUeF6lksENwjAMRStv8GnLOTgtiMKl3YBuAIgBYARG4MZ4jMAWHHETqJsoF4SlStHXy3NsNfu5OJERm0TYJFDa9CYRFgm0QYwKtMaco9ZsGBFKVc8MhFZa4M6PCKUaeD2BMkAtXOVByD7sjLaW2kcgbTvmFgj60BKno4Th491dJfVBUv7x41p5h293sjxOCSBv5ZOOB6NWdHawVjoV1Q4Sq4huar0aWn3EapWTnyC3apUDWQe2wa4cWlrgMl2rs56BmYnQeFxv1Q0qqqsOrIWCiqpRrWrU4uR/ytn/9Qab8CR+wmmXCQAAAABJRU5ErkJggg=="/>
-</defs>
-</svg>

@@ -109,7 +109,7 @@ export type paperItemIcon =
   | 'blimp_ticket'
   | 'blue_key'
   | 'blue_potion'
-  | 'boo_27_s_sheet'
+  | 'boo_sheet'
   | 'boots'
   | 'box'
   | 'briefcase'
@@ -128,7 +128,7 @@ export type paperItemIcon =
   | 'coconut'
   | 'cog'
   | 'cookbook'
-  | 'couple_27_s_cake'
+  | 'couple_cake'
   | 'courage_meal'
   | 'courage_shell'
   | 'crystal_star'
@@ -220,7 +220,7 @@ export type paperItemIcon =
   | 'peach_tart'
   | 'peachy_peach'
   | 'platinum_card'
-  | 'champ_27_s_belt_sprite'
+  | 'champ_belt'
   | 'mini_mr_mini_sprite'
   | 'point_swap'
   | 'poison_shroom'
@@ -295,7 +295,10 @@ export type paperItemIcon =
   | 'zess_dynamite'
   | 'zess_frappe'
   | 'zess_special'
-  | 'zess_tea';
+  | 'zess_tea'
+  | 'left_arrow'
+  | 'down_arrow'
+  | 'right_arrow';
 
 export type IconName = paperBadgeIcon | paperItemIcon;
 

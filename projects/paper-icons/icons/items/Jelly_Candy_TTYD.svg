@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Jelly_Candy_TTYD.svg)"/>
-<defs>
-<pattern id="pattern-Jelly_Candy_TTYD.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Jelly_Candy_TTYD.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Jelly_Candy_TTYD.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAARVBMVEUAAADOKCmGRgVKHAjOMSH/mgDCcAKiJB52IxBnHhBrIBCDIhR7PQiDQgSiKhi9KCG9aQDTewJ2IBPudA2EIBneThvudwsdb8bVAAAAAXRSTlMAQObYZgAAATZJREFUeF691MluxSAMBdDnCTLP7f9/am0ZJREIuqjUu2JxdLHE8KmENJ92krP8BZbu6hOkX2CMqlN1EwLQnZYbAQ5X2IYrgO09b1JrJA9qaNpFNoV15jKIZiaqsa5DNIrmdi8s3bAws4Kg1honMlm6gGA5jZoMlJJB7YC3RMR4uMydnJnUdewzOKA80paY4OXwLlzgy+Q3e6dXrqOqDDIkee9uohyxY3D5zIk3KyDwSzoszgTF4HtO7vIycni+ZAnpjjzSl0xEmRtXP1uXnOSSwSsCAKJfl6dTcMh27h2mI3xkoHLEI2Ih3eXSUHhLDJWbOPleaJSZl8FdKXe/LhrErqu9Z6LZXLBBPdW3t4nsE6GmyhzKNiuIAGv7C0k9B8DYhHcAzLXh+7Nr0NTcXwr/+ef2NNwP+2QOD0bn2WEAAAAASUVORK5CYII="/>
-</defs>
-</svg>

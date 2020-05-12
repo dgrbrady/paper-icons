@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Wrestling_Mag.svg)"/>
-<defs>
-<pattern id="pattern-Wrestling_Mag.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Wrestling_Mag.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Wrestling_Mag.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABQVBMVEUAAAAhJCGZm5nm4+ZoZmjW19anpKcpKClCQUIxMTEgICAAAABVFACqKAA6PTopLCkQEBD/PQAxMDExNDEmIiAbExC6LAB1HAAxDACvKgAQBAA5DQBzGgA6OToxMjEpKymtKAAsKywZGBkWFRYhICFNTk1KTUqcnZyZmZnFxsVtbW1zdXOsrqy1srVtbm2Oj461trWloqVdXF3e396RkJFHSkeUlpRCRUJrbWt4eXiOjI6UlZQrLCu9vr1XVlenpafW0tYZLWNCUHOcpsJabaeGkKxPYpyBiKdNXpmlpqV2gJwZNYytqq0mKCZHWpRKXJcZMXOXosWhq9OtstZKXqRNZKddcK+ts9hjdLIZNYShq9BYaZzW2+/m5/d7iL21wt6Bk8JdcKr38/8pKikxPmNCWaVSaa05Rmdrgr1GU28dLFaPKaz5AAAAAXRSTlMAQObYZgAAAgBJREFUeAGUyoV6hEAMReGuMsO96ZJ1d3n/N2xSxb9yYPx/61ivtf86qyN01x80N8zDUbMbJ3nYC99FK+RKrO4wTWMKfgcBAfpw+D6Z9HIwA+EKgKo4gxB1MFOAhr+gmNUq7KUmFRZVSXEMUSCbhjDLw/l8sXAIUV2uVuuNbrZmucN+fziectCkggqlLvU7Qs+1kKKi+IMQ3WO3Pxo09wPj1pSFH7bx7Q5ALw8vlwBzkoP0k4jiGpMkD28UgRCkklCBWbsi7iV4AUD/fzLjMZZgYDE3XhH2eo9HsJ65/HywYuz1KvD1aoU964NNujpQIIYCKLqLhj7G3d3dp/9ueBmccL9PPDTN8YLA8qLISJIkywqDVE3TjS8IThd4HMuaJgPJlqoiZID8hLbtuJ7rYsLzDM4P8Cfewu4Fbdd1QwUELL6FHjAiYWxZmLDsDQaHRP8BPdcLGRlPCTDNMhnJSE++YF4UTmmaVVWaZR03jdx2XT8M4zSO42X+hEV1r66bpoMWaCUgNBIN4wb/SViS+AteySAHGwiiKIoWeINvm/1XMAoWc4JnEkIoAMYhcCGZArQBrLP259/EhxAVVBKJZ4kCppjRWrv6n0iuRNwIoNwdVTTNmPhKvFC4OwKyyHzrpgFXnu3f/8bFGGOuS99rPfY5xoxMIJ2FXIoSBEQXy6QBADkghXf+1Ml9AAAAAElFTkSuQmCC"/>
-</defs>
-</svg>

@@ -1,0 +1,13 @@
+table.pm-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pm-table th {
+  text-align: left;
+  border-bottom: 0.25rem solid slategray;
+}
+
+.pm-table tbody tr {
+  border-bottom: thin dotted lightblue;
+}

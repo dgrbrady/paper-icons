@@ -1,9 +1,0 @@
-<svg width="37" height="33" viewBox="0 0 37 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="37" height="33" fill="url(#pattern-Palace_Key_blue.svg)"/>
-<defs>
-<pattern id="pattern-Palace_Key_blue.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Palace_Key_blue.svg" transform="scale(0.027027 0.030303)"/>
-</pattern>
-<image id="image-Palace_Key_blue.svg" width="37" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAhCAMAAABp0ZInAAAAbFBMVEX///8IKGNlfK82UYkILGuUptYzUYtOZ5z///82VI4uVZ8QMGsIOISst8s5WYxab5YIMHMpSYRada17ktYYOHMpSH9KaZxofrJffM0QPLVlfrWvvuYxUYw2V5NCYZRgeK1lfbJrhr14j8CMns6oAv3yAAAAAXRSTlMAQObYZgAAAQ1JREFUeF6F0tdyxCAMheE9EuC6fVN7ef93DMhKzjgM2f+Ki28sYXvjIbe5FqzrSJWsjWIka6FdzO3IGk+yOLSJyNpI/mfLTgJjzd2AU0HTn6FYooKIb0aG38gM3U2vZICKxK5bMSlo+ozczddcs5MY9ZTnbrXbgtT3M1QzR3zBzBRZQc7sqB9UZBfAv8R7CPM4zlAqMvyMDmEYM7NLSFGMaAjDMOcUcLWuIFN54vmsioJQoZuYSymFh6e+7/fYklHh1lRI4b53FaWh3kJKVLGhvkJIZeIW+6LUGdVzLD0eDpqzq5iq72i9AFA/o1Ya1zVeGMRmmubAmk3H4wXo+OdQkXmLExDVjpiogWm+Adv+DIxGgyzQAAAAAElFTkSuQmCC"/>
-</defs>
-</svg>

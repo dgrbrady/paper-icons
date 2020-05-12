@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Shop_Key.svg)"/>
-<defs>
-<pattern id="pattern-Shop_Key.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Shop_Key.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Shop_Key.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAS1BMVEUAAABKACl3Ii2lRTHOZTGELTFzIDGvTjF2ISuMMi2iQy6RNzFaDCmAKSutSzFrGDG9WTGUOTFjECmMMTFrGC3FYTFSBCmtTTF7JDG3frZlAAAAAXRSTlMAQObYZgAAAMRJREFUeAHc0kViw0AUg+GqfSY1zPe/qFmB4XX+TcCf7aGf7wyqgKmM+/2zsUoy5urG1tqglOvsFaNSTnURCMCm/jfbtASosVEvR9CBqxM0IP5mTL3NPAlZAnf7/cFiUNLcEIH04fIqF7aOIzA7X3pwjq5EWNJCkp6kWVIeV0mziMTpfD5fAFztVYuQVO+upSNltVpyyXMsyeULb1Gpcd5tro5BZ2FbCMbfnnSSERcb5yPlJPPP09uzThJymQqc5DAGGgIAA/MJCbZn/w8AAAAASUVORK5CYII="/>
-</defs>
-</svg>

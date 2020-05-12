@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Wedding_Ring.svg)"/>
-<defs>
-<pattern id="pattern-Wedding_Ring.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Wedding_Ring.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Wedding_Ring.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABC1BMVEUAAAAASWvm4+YAKEKZpK8INUqt3+ZSb37///86lpxMZnicqbImfIuZp68ALULT7O5zrb0AMUqAxcV7xs5BbHtMbHhVeIaDq7UTYnsANUqZqbIAMUJYn61uqreMztYAP1oIXXMAPVoAUXMZZYRaqK8ZQVI5e5Sl2957sbpMn6yEys6v3N7F6+8QYXsZaYRMb35dd4NziphzjJhCkaEWZXvm9/fv+/8AQVprwsV3orWEzs4ZSVoIUXMYcIAdb4MhbYYjdo5dobJrvsVHnKlSrq0udY43eZFWlKje8/csdIxMbH4sgYspg44ugJMxgpFMg5lCnpxzhZRjmqVjtr2Zp7KhrbSZvciqu8Kn2d4MmyDBAAAAAXRSTlMAQObYZgAAAa9JREFUeF7N0MWO5DAQgOExhTmNzDDMzMvM9P5PslVxt6yJOznsaf+LlehTleyN/63hcFgO4jhuQjGeJQyBgv1ih+Bwv9VqUfquBPYRHtKsHyUTYWPLNIWZQYezErhPTZeajANkVEF9IEVIOXO44wAsXiwhUsaLIGPsJwVoIjQFo8XwK11CV5guTuwTSHeMSugK4eKlOSPL8pBNpwcHQsjn4QpCT69yfQQ5sBPjDmffjMUimmkSQwFSHsyQzZRU9AiJi1JB47WCisI8LlA6DsBCeU7A1upBZYdW29UL6AqC7XlISLNWawaVoOK32/4KRkaUGwmfNcuyKkEQtKu+/xyaTABGhg5/A9yp1+u+71cfRqPRYPBpsg5eWlYY9nq9R/uOrPI6W1tPIZEwBfcSQCk8s8I/aeZUdqfT0WEYpunSyT/EA/hWu8vpm+0k+XIiXcYbtn38nayBSfLiPZFJB/Beh78Qnijn2QjR5eDnbQnVOIggzMmb+bzb3fy4uzsY3H6QzNMdjnyFELJXNZTLyW73mYIekU6XSDdBZqpBlNMltrc3Ho+JxnSp2ihLqX/sL2zlMpXbMX+mAAAAAElFTkSuQmCC"/>
-</defs>
-</svg>

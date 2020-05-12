@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Up_Arrow.svg)"/>
-<defs>
-<pattern id="pattern-Up_Arrow.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Up_Arrow.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Up_Arrow.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAJ1BMVEUAAADm4+YAAACZl5lzcXNMS0wIDAgZHBkpKCk5ODlSVVKcmpy1trUarJEEAAAAAXRSTlMAQObYZgAAAJtJREFUeF7tz7ENwjAQhWHLG1wieusRBAVNkgmQaChhBEZjBCbk5DvxnDMj8FfW6Sue0zeU1JWB/oiJlPDy7igOMkaacRdZAgVEZGeU8CzaC1s4S6QZe6k9EKE2NBSTWOOztHu8Bc1wzz5AGChOzriKe7iKe0gdRpoNsgEqj1dttUGrPm9V1mZDNV0Uj/y+SyTvf7R+HstG5gj7PoC1KwXZd86zAAAAAElFTkSuQmCC"/>
-</defs>
-</svg>

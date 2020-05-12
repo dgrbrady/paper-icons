@@ -19,19 +19,6 @@ h2.panel ~ div.panel {
   border-radius: 10px;
 }
 
-table {
-  border-collapse: collapse;
-}
-
-th {
-  text-align: left;
-  border-bottom: 0.25rem solid slategray;
-}
-
-tbody tr {
-  border-bottom: thin dotted lightblue;
-}
-
 .message {
   bottom: 0;
   position: sticky;

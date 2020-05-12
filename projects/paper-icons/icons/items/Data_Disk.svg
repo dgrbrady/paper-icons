@@ -1,9 +1,0 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" fill="url(#pattern-Data_Disk.svg)"/>
-<defs>
-<pattern id="pattern-Data_Disk.svg" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image-Data_Disk.svg" transform="scale(0.025)"/>
-</pattern>
-<image id="image-Data_Disk.svg" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAARVBMVEUAAABKLQDOcQDCjQB+aUyyppn/vgCiWgCGXQDm4+Z2QwCQYwDWmgBzSQDeigDupACtYQCkdQCUinPIgAB7UQDjnwBrPQAV9K5qAAAAAXRSTlMAQObYZgAAAMNJREFUeF7dzsluhTAMhlF+j0ngdhze/1GLrxdIhBIWlW7VbxMrOrI8PTpEgzldlqybNzdqg2xmnMDJ3akFyP/XPTTmZZ5nIqAR0bwsC1sPsyeigF/xPFtW/iZsvwzd/Qr0BqCNIHOBqCog75+nsEBrJBjCWgGpipcBLKsBtF6ENeD4Rr3faGcwZTgZQGNBJGo/waoitzVk8rFWjqAioWR3CBxAQe0y8D+HjMJvuwqsgyH7eA8LR91GjrBBjJouyunBfQMQKxZyGuhpzAAAAABJRU5ErkJggg=="/>
-</defs>
-</svg>
