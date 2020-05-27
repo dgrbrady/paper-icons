@@ -3,44 +3,21 @@
 
   <summary>
     <pm-dialog speed="slow">
-      Welcome to the demo site for PaperIcons, the Paper Mario inspired icon
-      pack!
+      Welcome to the demo site for
+      <code>pm-ui</code>
+      , the Paper Mario inspired UI library! This UI library was created due to
+      my love for the game, and I do not claim any rights/ownership of the Paper
+      Mario franchise. All rights go to Nintendo. This is just a little side
+      project that I am using to learn different angular concepts, explore UI/UX
+      designs/patterns such as brutalism as well as accessability. Feel free to
+      use this library however you want. This site offers documentation and
+      examples for each component in the library. The site itself is also built
+      using these components.
     </pm-dialog>
   </summary>
 </div>
 
-<h2 class="panel">Buttons</h2>
-<div class="panel">
-  <button pm-button class="row">
-    This is a paper button
-  </button>
-  <button pm-button class="row">
-    This is a button with an icon and text
-    <pm-icon name="all_or_nothing_p" size="medium"></pm-icon>
-  </button>
-  <div class="row">
-    This button is just an icon
-    <button pm-button pmIconButton>
-      <pm-icon name="bump_attack" size="medium"></pm-icon>
-    </button>
-  </div>
-  <button pm-button activeColor="purple" class="row">
-    This button has a custom color while active
-  </button>
-  <button pm-button disabled class="row">
-    This button is disabled
-  </button>
-  <button pm-button pmSuccessButton class="row">
-    This is a success button
-  </button>
-  <button pm-button pmWarningButton class="row">
-    This is a warning button
-  </button>
-  <button pm-button pmDangerButton class="row">
-    This is a danger button
-  </button>
-  <a href="#" (click)="$event.preventDefault()" pm-button>This is a link</a>
-</div>
+<router-outlet></router-outlet>
 
 <h2 class="panel">Curtains</h2>
 <div class="panel">

@@ -1,0 +1,32 @@
+<h2 class="panel">Buttons</h2>
+<div class="panel">
+  <button pm-button class="row">
+    This is a paper button
+  </button>
+  <button pm-button class="row">
+    This is a button with an icon and text
+    <pm-icon name="all_or_nothing_p" size="medium"></pm-icon>
+  </button>
+  <div class="row">
+    This button is just an icon
+    <button pm-button pmIconButton>
+      <pm-icon name="bump_attack" size="medium"></pm-icon>
+    </button>
+  </div>
+  <button pm-button activeColor="purple" class="row">
+    This button has a custom color while active
+  </button>
+  <button pm-button disabled class="row">
+    This button is disabled
+  </button>
+  <button pm-button pmSuccessButton class="row">
+    This is a success button
+  </button>
+  <button pm-button pmWarningButton class="row">
+    This is a warning button
+  </button>
+  <button pm-button pmDangerButton class="row">
+    This is a danger button
+  </button>
+  <a href="#" (click)="$event.preventDefault()" pm-button>This is a link</a>
+</div>
