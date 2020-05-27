@@ -3,68 +3,35 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "paper-icons": {
-      "projectType": "library",
-      "root": "projects/paper-icons",
-      "sourceRoot": "projects/paper-icons/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
-          "options": {
-            "tsConfig": "projects/paper-icons/tsconfig.lib.json",
-            "project": "projects/paper-icons/ng-package.json"
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/paper-icons/src/test.ts",
-            "tsConfig": "projects/paper-icons/tsconfig.spec.json",
-            "karmaConfig": "projects/paper-icons/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/paper-icons/tsconfig.lib.json",
-              "projects/paper-icons/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"]
-          }
-        }
-      }
-    },
-    "paper-icons-showcase": {
+    "pm-ui-demo": {
       "projectType": "application",
       "schematics": {},
-      "root": "projects/paper-icons-showcase",
-      "sourceRoot": "projects/paper-icons-showcase/src",
+      "root": "projects/pm-ui-demo",
+      "sourceRoot": "projects/pm-ui-demo/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/paper-icons-showcase",
-            "index": "projects/paper-icons-showcase/src/index.html",
-            "main": "projects/paper-icons-showcase/src/main.ts",
-            "polyfills": "projects/paper-icons-showcase/src/polyfills.ts",
-            "tsConfig": "projects/paper-icons-showcase/tsconfig.app.json",
+            "outputPath": "dist/pm-ui-demo",
+            "index": "projects/pm-ui-demo/src/index.html",
+            "main": "projects/pm-ui-demo/src/main.ts",
+            "polyfills": "projects/pm-ui-demo/src/polyfills.ts",
+            "tsConfig": "projects/pm-ui-demo/tsconfig.app.json",
             "aot": false,
             "assets": [
-              "projects/paper-icons-showcase/src/favicon.ico",
-              "projects/paper-icons-showcase/src/assets"
+              "projects/pm-ui-demo/src/favicon.ico",
+              "projects/pm-ui-demo/src/assets"
             ],
-            "styles": ["projects/paper-icons-showcase/src/styles.css"],
+            "styles": ["projects/pm-ui-demo/src/styles.css"],
             "scripts": []
           },
           "configurations": {
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "projects/paper-icons-showcase/src/environments/environment.ts",
-                  "with": "projects/paper-icons-showcase/src/environments/environment.prod.ts"
+                  "replace": "projects/pm-ui-demo/src/environments/environment.ts",
+                  "with": "projects/pm-ui-demo/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -94,32 +61,32 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "paper-icons-showcase:build"
+            "browserTarget": "pm-ui-demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "paper-icons-showcase:build:production"
+              "browserTarget": "pm-ui-demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "paper-icons-showcase:build"
+            "browserTarget": "pm-ui-demo:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/paper-icons-showcase/src/test.ts",
-            "polyfills": "projects/paper-icons-showcase/src/polyfills.ts",
-            "tsConfig": "projects/paper-icons-showcase/tsconfig.spec.json",
-            "karmaConfig": "projects/paper-icons-showcase/karma.conf.js",
+            "main": "projects/pm-ui-demo/src/test.ts",
+            "polyfills": "projects/pm-ui-demo/src/polyfills.ts",
+            "tsConfig": "projects/pm-ui-demo/tsconfig.spec.json",
+            "karmaConfig": "projects/pm-ui-demo/karma.conf.js",
             "assets": [
-              "projects/paper-icons-showcase/src/favicon.ico",
-              "projects/paper-icons-showcase/src/assets"
+              "projects/pm-ui-demo/src/favicon.ico",
+              "projects/pm-ui-demo/src/assets"
             ],
-            "styles": ["projects/paper-icons-showcase/src/styles.css"],
+            "styles": ["projects/pm-ui-demo/src/styles.css"],
             "scripts": []
           }
         },
@@ -127,9 +94,9 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/paper-icons-showcase/tsconfig.app.json",
-              "projects/paper-icons-showcase/tsconfig.spec.json",
-              "projects/paper-icons-showcase/e2e/tsconfig.json"
+              "projects/pm-ui-demo/tsconfig.app.json",
+              "projects/pm-ui-demo/tsconfig.spec.json",
+              "projects/pm-ui-demo/e2e/tsconfig.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
@@ -137,44 +104,44 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "projects/paper-icons-showcase/e2e/protractor.conf.js",
-            "devServerTarget": "paper-icons-showcase:serve"
+            "protractorConfig": "projects/pm-ui-demo/e2e/protractor.conf.js",
+            "devServerTarget": "pm-ui-demo:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "paper-icons-showcase:serve:production"
+              "devServerTarget": "pm-ui-demo:serve:production"
             }
           }
         }
       }
     },
-    "ng-paper-m": {
+    "pm-ui": {
       "projectType": "library",
-      "root": "projects/ng-paper-m",
-      "sourceRoot": "projects/ng-paper-m/src",
-      "prefix": "paper-m",
+      "root": "projects/pm-ui",
+      "sourceRoot": "projects/pm-ui/src",
+      "prefix": "pm",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ng-paper-m/tsconfig.lib.json",
-            "project": "projects/ng-paper-m/ng-package.json"
+            "tsConfig": "projects/pm-ui/tsconfig.lib.json",
+            "project": "projects/pm-ui/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng-paper-m/src/test.ts",
-            "tsConfig": "projects/ng-paper-m/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-paper-m/karma.conf.js"
+            "main": "projects/pm-ui/src/test.ts",
+            "tsConfig": "projects/pm-ui/tsconfig.spec.json",
+            "karmaConfig": "projects/pm-ui/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng-paper-m/tsconfig.lib.json",
-              "projects/ng-paper-m/tsconfig.spec.json"
+              "projects/pm-ui/tsconfig.lib.json",
+              "projects/pm-ui/tsconfig.spec.json"
             ],
             "exclude": ["**/node_modules/**"]
           }
@@ -182,5 +149,5 @@
       }
     }
   },
-  "defaultProject": "paper-icons"
+  "defaultProject": "pm-ui-demo"
 }

@@ -1,0 +1,13 @@
+<span id="currentPage">Current Page: {{ currentPage }}</span>
+<span id="displayingRows">
+  {{ startingIndex + 1 }} - {{ endingIndex + 1 }} / {{ table.rows.length }}
+</span>
+<button pm-button pmIconButton (click)="pageDown()">
+  <pm-icon name="left_arrow" size="small"></pm-icon>
+</button>
+<select [(ngModel)]="pageSize" name="pageSize" (ngModelChange)="changePage()">
+  <option *ngFor="let size of pageSizes" value="{{ size }}">{{ size }}</option>
+</select>
+<button pm-button pmIconButton (click)="pageUp()">
+  <pm-icon name="right_arrow" size="small"></pm-icon>
+</button>

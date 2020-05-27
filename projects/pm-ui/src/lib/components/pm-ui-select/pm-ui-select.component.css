@@ -1,0 +1,38 @@
+:host {
+  width: 100%;
+}
+
+.pm-select-wrapper {
+  display: inline-block;
+}
+
+input {
+  display: block;
+  outline: none;
+  /* width: 100%; */
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.pm-select-options {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+
+.pm-select-option {
+  flex-grow: 1;
+  width: 100%;
+  cursor: pointer;
+}
+
+.pm-select-option:hover {
+  background-color: rgb(231, 231, 231);
+}
+.pm-select-option:hover:before {
+  content: '\232a';
+  width: 2px;
+  position: absolute;
+  transform: translate(-10px, -2px);
+}

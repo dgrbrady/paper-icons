@@ -1,0 +1,23 @@
+<div class="pm-select-wrapper">
+  <label *ngIf="label" for="pmSelection">{{ label }}</label>
+  <input
+    id="pmSelection"
+    name="pmSelection"
+    [(ngModel)]="value"
+    (click)="toggleOptions()"
+  />
+  <section
+    role="list"
+    class="pm-select-options"
+    [ngStyle]="{ display: showOptions ? 'flex' : 'none' }"
+  >
+    <div
+      role="listitem"
+      class="pm-select-option"
+      *ngFor="let option of options"
+      (click)="setValue(option); toggleOptions()"
+    >
+      {{ option }}
+    </div>
+  </section>
+</div>
