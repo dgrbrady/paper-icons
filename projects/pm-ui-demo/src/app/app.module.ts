@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { ButtonPageComponent } from './button-page/button-page.component';
 import { IntroPageComponent } from './intro-page/intro-page.component';
 import { CurtainPageComponent } from './curtain-page/curtain-page.component';
+import { DialogPageComponent } from './dialog-page/dialog-page.component';
 
 @NgModule({
-  declarations: [AppComponent, ButtonPageComponent, IntroPageComponent, CurtainPageComponent],
+  declarations: [AppComponent, ButtonPageComponent, IntroPageComponent, CurtainPageComponent, DialogPageComponent],
   imports: [BrowserModule, PmUiModule, AppRoutingModule],
   bootstrap: [AppComponent],
 })
