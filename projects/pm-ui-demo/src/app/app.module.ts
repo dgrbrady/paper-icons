@@ -9,9 +9,10 @@ import { CurtainPageComponent } from './curtain-page/curtain-page.component';
 import { DialogPageComponent } from './dialog-page/dialog-page.component';
 import { IconPageComponent } from './icon-page/icon-page.component';
 import { SelectPageComponent } from './select-page/select-page.component';
+import { TablePageComponent } from './table-page/table-page.component';
 
 @NgModule({
-  declarations: [AppComponent, ButtonPageComponent, IntroPageComponent, CurtainPageComponent, DialogPageComponent, IconPageComponent, SelectPageComponent],
+  declarations: [AppComponent, ButtonPageComponent, IntroPageComponent, CurtainPageComponent, DialogPageComponent, IconPageComponent, SelectPageComponent, TablePageComponent],
   imports: [BrowserModule, PmUiModule, AppRoutingModule],
   bootstrap: [AppComponent],
 })
