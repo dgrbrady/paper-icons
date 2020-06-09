@@ -1,0 +1,7 @@
+.dialog-code-snippet {
+  display: block;
+  width: fit-content;
+}
+.restart-btn {
+  transform: scale(0.75);
+}

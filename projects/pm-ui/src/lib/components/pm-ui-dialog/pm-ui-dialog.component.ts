@@ -17,6 +17,7 @@ import {
   styleUrls: ['./pm-ui-dialog.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
+  exportAs: 'dialog',
 })
 export class PmUiDialogComponent implements AfterViewInit {
   @ViewChild('dialogContent', { static: true }) dialogContent: ElementRef<
@@ -74,7 +75,7 @@ export class PmUiDialogComponent implements AfterViewInit {
       );
       this.renderer2.appendChild(span, textNode);
       this.renderer2.setStyle(span, 'display', 'none');
-      if (char === ' ') {
+      if (char === ' ' && index !== 0) {
         this.renderer2.setStyle(span, 'margin-right', '10px');
       }
       if (this.tone === 'scared') {

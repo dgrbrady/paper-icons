@@ -48,3 +48,17 @@ h2.panel ~ div.panel {
   display: flex;
   align-items: center;
 }
+
+.code {
+  font-family: Roboto Mono, monospace;
+  font-size: 90%;
+  padding: 3px;
+  color: antiquewhite;
+  background-color: darkslategray;
+  background-clip: border-box;
+  background-origin: padding-box;
+  font-weight: 400;
+  height: auto;
+  vertical-align: middle;
+  box-shadow: inset 0px 0px 4px 0px #212020;
+}

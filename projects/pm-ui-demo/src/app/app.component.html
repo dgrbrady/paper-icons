@@ -1,2 +1,9 @@
 <router-outlet></router-outlet>
-<a *ngIf="!isAtHome" pm-button routerLink="/">Home</a>
+<div
+  style="display: block; margin: 5px auto; width: fit-content; background-color: #ebebeb;"
+>
+  <a *ngIf="!isAtHome" pm-button routerLink="/">
+    Home
+    <pm-icon name="crystal_star" size="medium"></pm-icon>
+  </a>
+</div>
