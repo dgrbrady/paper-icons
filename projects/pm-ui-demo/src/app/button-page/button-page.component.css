@@ -1,0 +1,8 @@
+.row {
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+}
+.button-example {
+  transform: scale(0.75);
+}
