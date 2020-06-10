@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "generate-icons": "svg-to-ts -s projects/paper-icons/icons/items/**/*.svg -o projects/paper-icons/src/lib -f paper-items.icons -p paperIcons -t paperIcon -i PaperIcon"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +20,6 @@
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
     "animejs": "^3.1.0",
-    "paper-icons": "^1.0.3",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1",

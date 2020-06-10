@@ -1,58 +1,37 @@
-# PaperIcons
+# pm-ui
 
-This repo contains an SVG icon pack that you can use in your Angular applications. The icons are clones of various badges and items found in Nintendo's Paper Mario The Thousand Year Door. I do not claim any rights to the images used in this library or the Paper Mario franchise. This is just a fun little icon pack not intended for commercial use.
+Welcome to the demo site for pm-ui, the Paper Mario inspired UI library! I
+created this library because of how much I love the game's aesthetic. This
+is just a little side project that I am using to learn different angular
+concepts, explore UI/UX designs/patterns such as brutalism as well as
+accessability. Feel free to use this library however you want. This site
+offers documentation and examples for each component in the library. The
+site itself is also built using these components. I do not claim any
+rights/ownership of the Paper Mario franchise. All rights go to Nintendo.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
 ## Installation
 
-`npm i paper-icons`
+`npm i pm-ui`
 
 ## Usage
 
-First, register the icons you want to use.
+If you want to have all `pm-ui` components available in your module, simply import the `PmUiModule` in your `NgModule`:
 
 ```typescript
-//app.module.ts
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import {
-  PaperBadges, // import all badge icons
-  PaperIcon,
-  PaperIconsModule,
-  PaperIconsRegistry,
-  PaperItems, // import all item icons
-  // or import individual icons such as badgeIconAllOrNothing or itemIconSunStone
-} from 'paper-icons';
-import { AppComponent } from './app.component';
+// app.module.ts
+import { PmUiModule } from '@pm-ui';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, PaperIconsModule],
-  providers: [],
+  imports: [BrowserModule, PmUiModule, AppRoutingModule],
   bootstrap: [AppComponent],
 })
-export class AppModule {
-  constructor(private paperIconRegistry: PaperIconsRegistry) {
-    this.paperIconRegistry.registerIcons(
-      Object.values((PaperBadges as unknown) as PaperIcon[]),
-    );
-    this.paperIconRegistry.registerIcons(
-      Object.values((PaperItems as unknown) as PaperIcon[]),
-    );
-  }
-}
+export class AppModule {}
 ```
 
-Once your icons are registered, you can use them in any component. The `PaperIconComponent` looks like this:
-
-```html
-<paper-icon name="icon_name" size="small | medium | large"></paper-icon>
-```
-
-Where `name` is the unique name for the icon and `size` is either `small`, `medium` or `large`. The size will render the icon SVG as 20px/20px, 30px/30px or 40px/40px, respectfully.
-
-To see all the icons included in the library, you can serve the showcase site locally (see section below) or view the same site live at https://paper-icons-showcase.netlify.com
+To view the documentation site live, go to `https://pm-ui.netlify.app`
 
 ## Development server
 

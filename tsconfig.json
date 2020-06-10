@@ -14,10 +14,10 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2018", "dom"],
     "paths": {
-      "paper-icons": ["dist/paper-icons"],
-      "paper-icons/*": ["dist/paper-icons/*"],
-      "ng-paper-m": ["dist/ng-paper-m"],
-      "ng-paper-m/*": ["dist/ng-paper-m/*"]
+      "pm-ui": ["dist/pm-ui"],
+      "pm-ui/*": ["dist/pm-ui/*"],
+      "pm-ui-demo": ["dist/pm-ui-demo"],
+      "pm-ui-demo/*": ["dist/pm-ui-demo/*"]
     }
   },
   "angularCompilerOptions": {

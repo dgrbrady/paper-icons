@@ -1,8 +1,26 @@
 {
-  "name": "ng-paper-m",
+  "name": "pm-ui",
   "version": "0.0.1",
+  "author": {
+    "name": "David Brady",
+    "email": "dgrbrady@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/dgrbrady/paper-icons"
+  },
   "peerDependencies": {
     "@angular/common": "^8.2.0",
     "@angular/core": "^8.2.0"
-  }
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "packagr": "ng-packagr -p ng-package.json",
+    "echo": "echo hello"
+  },
+  "private": false
 }
