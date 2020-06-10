@@ -1,0 +1,126 @@
+<h2 class="panel">Buttons</h2>
+<div class="panel">
+  To get a button, simply add the
+  <span class="code">pm-button</span>
+  directive to a button or anchor element.
+  <table pm-table style="margin-top: 10px;">
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;button pm-button>Button&lt;/button>
+          </span>
+        </td>
+        <td><button pm-button class="button-example">Button</button></td>
+      </tr>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;button pm-button>Wait &lt;pm-icon name="stop_watch"
+            size="small">&lt;/pm-icon>&lt;/button>
+          </span>
+        </td>
+        <td>
+          <button pm-button class="button-example">
+            Wait
+            <pm-icon name="stop_watch" size="small"></pm-icon>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;button pm-button pmIconButton>&lt;pm-icon name="volt_shroom"
+            >&lt;/pm-icon>&lt;/button>
+          </span>
+        </td>
+        <td>
+          <button pm-button pmIconButton class="button-example">
+            <pm-icon name="volt_shroom"></pm-icon>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;button pm-button activeColor="purple">Purple&lt;/button>
+          </span>
+        </td>
+        <td>
+          <button pm-button activeColor="purple" class="button-example">
+            Purple
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;button pm-button disabled>Disabled&lt;/button>
+          </span>
+        </td>
+        <td>
+          <button pm-button disabled class="button-example">Disabled</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;button pm-button pmSuccessButton>Success&lt;/button>
+          </span>
+        </td>
+        <td>
+          <button pm-button pmSuccessButton class="button-example">
+            Success
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;button pm-button pmWarningButton>Warning&lt;/button>
+          </span>
+        </td>
+        <td>
+          <button pm-button pmWarningButton class="button-example">
+            Warning
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;button pm-button pmDangerButton>Danger&lt;/button>
+          </span>
+        </td>
+        <td>
+          <button pm-button pmDangerButton class="button-example">
+            Danger
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="code">
+            &lt;a pm-button href="#">Link&lt;/a>
+          </span>
+        </td>
+        <td>
+          <a
+            pm-button
+            href="#"
+            (click)="$event.preventDefault()"
+            class="button-example"
+          >
+            Link
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

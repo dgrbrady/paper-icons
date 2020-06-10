@@ -1,0 +1,88 @@
+<h2 class="panel">Dialog</h2>
+<div class="panel">
+  The
+  <span class="code">&lt;pm-dialog>&lt;/pm-dialog></span>
+  component can be used to add a scrolling effect where the letters are rendered
+  one at a time.
+  <br />
+  <br />
+  Features:
+  <ul>
+    <li>Click the dialog to skip the animation.</li>
+    <li>
+      Comes with 3 predetermined scrolling speeds,
+      <span class="code">slow</span>
+      ,
+      <span class="code">normal</span>
+      , and
+      <span class="code">fast</span>
+      . You can also provide an arbitrary number if the speeds don't work for
+      you.
+    </li>
+    <li>
+      Ability to set the
+      <i>tone</i>
+      of the dialog. The only one currently implemented is
+      <i>scared</i>
+    </li>
+  </ul>
+  Examples:
+  <ul>
+    <li>
+      <span class="code dialog-code-snippet">
+        &lt;pm-dialog speed="slow">&lt;pm-dialog>
+      </span>
+      <pm-dialog #slowDialog="dialog" speed="slow">
+        This is a dialog using the "slow" speed
+      </pm-dialog>
+      <button pm-button class="restart-btn" (click)="slowDialog.restart()">
+        Restart
+      </button>
+    </li>
+    <li>
+      <span class="code dialog-code-snippet">
+        &lt;pm-dialog>&lt;pm-dialog>
+      </span>
+      <pm-dialog #defaultDialog="dialog">
+        This is a dialog using the "normal" speed.
+      </pm-dialog>
+      <button pm-button class="restart-btn" (click)="defaultDialog.restart()">
+        Restart
+      </button>
+    </li>
+    <li>
+      <span class="code dialog-code-snippet">
+        &lt;pm-dialog speed="fast">&lt;pm-dialog>
+      </span>
+      <pm-dialog #fastDialog="dialog" speed="fast">
+        This is a dialog using the "fast" speed
+      </pm-dialog>
+      <button pm-button class="restart-btn" (click)="fastDialog.restart()">
+        Restart
+      </button>
+    </li>
+    <li>
+      <span class="code dialog-code-snippet">
+        &lt;pm-dialog [speed]="100">&lt;pm-dialog>
+      </span>
+      <pm-dialog #customDialog="dialog" [speed]="100">
+        This is a dialog using a custom speed. The number is how many
+        milliseconds should be delayed between each character.
+      </pm-dialog>
+      <button pm-button class="restart-btn" (click)="customDialog.restart()">
+        Restart
+      </button>
+    </li>
+    <li>
+      <span class="code dialog-code-snippet">
+        &lt;pm-dialog tone="scared">&lt;pm-dialog>
+      </span>
+      <pm-dialog #scaredDialog="dialog" tone="scared">
+        Shaking in your boots??? Use the "scared" tone! Boooooooooo!!
+      </pm-dialog>
+      <button pm-button class="restart-btn" (click)="scaredDialog.restart()">
+        Restart
+      </button>
+    </li>
+  </ul>
+</div>
