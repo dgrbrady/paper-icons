@@ -11,7 +11,7 @@ import { TablePageComponent } from 'projects/pm-ui-demo/src/app/table-page/table
 export const routes: Routes = [
   { path: '', component: IntroPageComponent },
   { path: 'button', component: ButtonPageComponent },
-  { path: 'curtain', component: CurtainPageComponent },
+  { path: 'curtains', component: CurtainPageComponent },
   { path: 'dialog', component: DialogPageComponent },
   { path: 'icon', component: IconPageComponent },
   { path: 'select', component: SelectPageComponent },

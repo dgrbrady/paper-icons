@@ -1,8 +1,81 @@
-<h2 class="panel">Curtain</h2>
+<h2 class="panel">Curtains</h2>
 <div class="panel">
-  <pm-curtains>
+  The
+  <span class="code">pm-curtains</span>
+  component is a Paper Mario flavored tab component. To create a new tab, use
+  the
+  <span class="code">pm-curtain-tab</span>
+  component. Setting the "label" attribute on the
+  <span class="code">pm-curtain-tab</span>
+  component will set the label for that tab. The tab content goes in between the
+  opening and closing tags.
+  <br />
+  <br />
+  <span class="code">pm-curtains</span>
+  with default colors:
+  <pre style="display: block" class="code">
+&lt;pm-curtains>
+    &lt;pm-curtain-tab label="first">
+        first tab
+    &lt;/pm-curtain-tab>
+    &lt;pm-curtain-tab label="second">
+        second tab
+    &lt;/pm-curtain-tab>
+    &lt;pm-curtain-tab label="third">
+        third tab
+    &lt;/pm-curtain-tab>
+&lt;/pm-curtains>
+  </pre>
+
+  <pm-curtains style="display: block; margin-bottom: 20px;">
     <pm-curtain-tab label="first">
-      <div style="height: 400px;">
+      <div>
+        first tab
+      </div>
+    </pm-curtain-tab>
+    <pm-curtain-tab label="second">
+      second tab
+    </pm-curtain-tab>
+    <pm-curtain-tab label="third">
+      third tab
+    </pm-curtain-tab>
+  </pm-curtains>
+
+  You can alter the appearance of the curtains via the 4
+  <span class="code">@Input()</span>
+  properties:
+  <span class="code">color1</span>
+  ,
+  <span class="code">color2</span>
+  ,
+  <span class="code">trimColor</span>
+  ,
+  <span class="code">tabTextColor</span>
+  <pre style="display: block" class="code">
+&lt;pm-curtains
+  color1="purple"
+  color2="#6565a7"
+  trimColor="rgb(245,110,110)"
+  tabTextColor="gold">
+    &lt;pm-curtain-tab label="first">
+        first tab
+    &lt;/pm-curtain-tab>
+    &lt;pm-curtain-tab label="second">
+        second tab
+    &lt;/pm-curtain-tab>
+    &lt;pm-curtain-tab label="third">
+        third tab
+    &lt;/pm-curtain-tab>
+&lt;/pm-curtains>
+  </pre>
+  <pm-curtains
+    color1="purple"
+    color2="#6565a7"
+    trimColor="rgb(245,110,110)"
+    tabTextColor="gold"
+  >
+    <pm-curtain-tab label="first">
+      <div>
         first tab
       </div>
     </pm-curtain-tab>
