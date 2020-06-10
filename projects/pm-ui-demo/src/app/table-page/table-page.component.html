@@ -1,24 +1,165 @@
 <h2 class="panel">Table</h2>
 <div class="panel">
+  The
+  <span class="code">pm-table</span>
+  component can be used in two ways: data driven, or content driven. A driven
+  table is best used when you have an array of objects that are in a predictable
+  structure.
+  <br />
+  <br />
+  For example, an array of users where each user object has a "firstName",
+  "lastName" and "address" property. You start by telling the table what your
+  columns are. You do this by passing an array of
+  <span class="code">TableColumn</span>
+  objects into the
+  <span class="code">[columns]</span>
+  property. You pass the table's data in via the
+  <span class="code">[rows]</span>
+  property.
+  <br />
+  <br />
+  While using a data driven table, you can also use the
+  <span class="code">pm-paginator</span>
+  component. Control the page size options via the
+  <span class="code">[pageSizes]</span>
+  property like this:
+  <br />
+  <span class="code">
+    &lt;pm-paginator [table]="tableTemplateRef"
+    [pageSizes]=[10,20,30]>&lt;/pm-paginator>
+  </span>
+  <br />
+  The default page sizes are 5, 10 and 15.
+  <h3>Data driven table example:</h3>
+  <pre class="code">
+    &lt;table
+    #exampleTable="pm-table"
+    pm-table
+    [columns]="[
+      &#123; key: 'firstName', label: 'First Name' },
+      &#123; key: 'lastName', label: 'Second Name' },
+      &#123; key: 'address', label: 'Address' }
+    ]"
+    [rows]="[
+      &#123; firstName: 'Mario', lastName: 'Mario', address: '101 Star Kingdom Rd' },
+      &#123; firstName: 'Luigi', lastName: 'Mario', address: '103 Star Kingdom Rd' },
+      &#123;
+        firstName: 'Princess',
+        lastName: 'Peach',
+        address: '325 Royal Mushroom Ln'
+      },
+      &#123; firstName: 'Bowser', lastName: 'Koopa', address: '478 Lava Lake Rd' },
+      &#123;
+        firstName: 'Madame',
+        lastName: 'Flurry',
+        address: '89 Boggly Woods Dr'
+      },
+      &#123; firstName: 'Don', lastName: 'Pianta', address: '278 W Rogue Port St' },
+      &#123;
+        firstName: 'Professor',
+        lastName: 'Frankly',
+        address: '2765 E Rogue Port St'
+      },
+      &#123; firstName: 'Prince', lastName: 'Mush', address: '909 Gladiator Blvd' }
+    ]"
+    >&lt;/table>
+    &lt;pm-paginator [table]="exampleTable">&lt;/pm-paginator>
+  </pre>
   <table
     #exampleTable="pm-table"
     pm-table
     [columns]="[
-      { key: 'header1', label: 'Header 1' },
-      { key: 'header2', label: 'Header 2' },
-      { key: 'header3', label: 'Header 3' }
+      { key: 'firstName', label: 'First Name' },
+      { key: 'lastName', label: 'Second Name' },
+      { key: 'address', label: 'Address' }
     ]"
     [rows]="[
-      { header1: 'A1', header2: 'A2', header3: 'A3' },
-      { header1: 'B1', header2: 'B2', header3: 'B3' },
-      { header1: 'C1', header2: 'C2', header3: 'C3' },
-      { header1: 'D1', header2: 'D2', header3: 'D3' },
-      { header1: 'E1', header2: 'E2', header3: 'E3' },
-      { header1: 'F1', header2: 'F2', header3: 'F3' },
-      { header1: 'G1', header2: 'G2', header3: 'G3' },
-      { header1: 'H1', header2: 'H2', header3: 'H3' }
+      { firstName: 'Mario', lastName: 'Mario', address: '101 Star Kingdom Rd' },
+      { firstName: 'Luigi', lastName: 'Mario', address: '103 Star Kingdom Rd' },
+      {
+        firstName: 'Princess',
+        lastName: 'Peach',
+        address: '325 Royal Mushroom Ln'
+      },
+      { firstName: 'Bowser', lastName: 'Koopa', address: '478 Lava Lake Rd' },
+      {
+        firstName: 'Madame',
+        lastName: 'Flurry',
+        address: '89 Boggly Woods Dr'
+      },
+      { firstName: 'Don', lastName: 'Pianta', address: '278 W Rogue Port St' },
+      {
+        firstName: 'Professor',
+        lastName: 'Frankly',
+        address: '2765 E Rogue Port St'
+      },
+      { firstName: 'Prince', lastName: 'Mush', address: '909 Gladiator Blvd' }
     ]"
-    [footer]="{ Footer: ['F1', 'F2'] }"
   ></table>
   <pm-paginator [table]="exampleTable"></pm-paginator>
+  <br />
+  <br />
+  A content driven table is just another way of saying a plain ol' fashion html
+  table. All you need for that is to add the "pm-table" selector to a table
+  element like so:
+  <br />
+  <span class="code">&lt;table pm-table>...&lt;/table></span>
+  <br />
+  Note that you can not use the "pm-paginator" component while using a content
+  driven table.
+  <h3>Content Driven Table Example:</h3>
+  <pre class="code">
+  &lt;table pm-table>
+    &lt;thead>
+      &lt;tr>
+        &lt;th>First Name&lt;/th>
+        &lt;th>Last Name&lt;/th>
+        &lt;th>Address&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Mario&lt;/td>
+        &lt;td>Mario&lt;/td>
+        &lt;td>101 Star Kingdom Rd&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Luigi&lt;/td>
+        &lt;td>Mario&lt;/td>
+        &lt;td>103 Star Kingdom Rd&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Princess&lt;/td>
+        &lt;td>Peach&lt;/td>
+        &lt;td>325 Royal Mushroom Ln&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+  </pre>
+  <table pm-table>
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mario</td>
+        <td>Mario</td>
+        <td>101 Star Kingdom Rd</td>
+      </tr>
+      <tr>
+        <td>Luigi</td>
+        <td>Mario</td>
+        <td>103 Star Kingdom Rd</td>
+      </tr>
+      <tr>
+        <td>Princess</td>
+        <td>Peach</td>
+        <td>325 Royal Mushroom Ln</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
