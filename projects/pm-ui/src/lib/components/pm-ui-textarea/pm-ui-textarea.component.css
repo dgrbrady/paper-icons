@@ -1,0 +1,25 @@
+@import '../../styles.css';
+
+:host:invalid {
+  border-left: 5px solid red;
+}
+
+:host {
+  background-attachment: local;
+  background-image: linear-gradient(to right, white 10px, transparent 10px),
+    linear-gradient(to left, white 10px, transparent 10px),
+    repeating-linear-gradient(
+      white,
+      white 30px,
+      #ccc 30px,
+      #ccc 31px,
+      white 31px
+    );
+  padding: 8px 10px;
+  width: stretch;
+  overflow: auto;
+  border-left: 5px transparent solid;
+}
+:host:focus {
+  border-left: 5px rgb(48, 113, 255) solid;
+}

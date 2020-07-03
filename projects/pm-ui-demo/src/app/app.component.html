@@ -1,9 +1,24 @@
 <router-outlet></router-outlet>
-<div
-  style="display: block; margin: 5px auto; width: fit-content; background-color: #ebebeb;"
+<a
+  *ngIf="!isAtHome"
+  class="home-btn"
+  pm-button
+  routerLink="/"
+  backgroundColor="#ebebeb"
+  activeColor="darkgray"
 >
-  <a *ngIf="!isAtHome" pm-button routerLink="/">
-    Home
-    <pm-icon name="crystal_star" size="medium"></pm-icon>
-  </a>
-</div>
+  <pm-icon name="pow_block" size="small"></pm-icon>
+  Home
+  <pm-icon name="pow_block" size="small"></pm-icon>
+</a>
+<button
+  class="scroll-up-btn"
+  pm-button
+  backgroundColor="#ccc"
+  activeColor="darkgray"
+  (click)="scrollToTop()"
+>
+  <pm-icon name="up_arrow" size="small"></pm-icon>
+  Back To Top
+  <pm-icon name="up_arrow" size="small"></pm-icon>
+</button>

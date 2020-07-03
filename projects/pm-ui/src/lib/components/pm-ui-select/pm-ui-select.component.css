@@ -1,3 +1,5 @@
+@import '../../styles.css';
+
 :host {
   width: 100%;
 }
@@ -9,8 +11,6 @@
 input {
   display: block;
   outline: none;
-  font-size: inherit;
-  font-family: inherit;
   cursor: pointer;
 }
 

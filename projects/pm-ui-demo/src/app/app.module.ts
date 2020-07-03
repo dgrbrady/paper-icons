@@ -10,6 +10,7 @@ import { IconPageComponent } from './icon-page/icon-page.component';
 import { IntroPageComponent } from './intro-page/intro-page.component';
 import { SelectPageComponent } from './select-page/select-page.component';
 import { TablePageComponent } from './table-page/table-page.component';
+import { TextareaPageComponent } from './textarea-page/textarea-page.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { TablePageComponent } from './table-page/table-page.component';
     IconPageComponent,
     SelectPageComponent,
     TablePageComponent,
+    TextareaPageComponent,
   ],
   imports: [BrowserModule, PmUiModule, AppRoutingModule],
   bootstrap: [AppComponent],

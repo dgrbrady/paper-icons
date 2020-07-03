@@ -1,4 +1,7 @@
+@import '../../styles.css';
+
 table.pm-table {
+  font-family: 'hey_gorgeous';
   width: 100%;
   border-collapse: collapse;
 }

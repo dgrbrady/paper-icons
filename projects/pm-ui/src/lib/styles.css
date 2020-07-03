@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'hey_gorgeous';
+  src: url('assets/heygorgeous-webfont.woff2') format('woff2'),
+    url('assets/heygorgeous-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:host {
+  font-family: 'hey_gorgeous';
+  line-height: 31px;
+}

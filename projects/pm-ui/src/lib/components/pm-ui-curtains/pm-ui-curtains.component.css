@@ -1,3 +1,5 @@
+@import '../../styles.css';
+
 :root {
   --curtain-color-1: maroon;
   --curtain-color-2: red;
@@ -10,6 +12,7 @@
   border: thick solid #222;
   min-height: 200px;
   overflow: hidden;
+  font-family: 'hey_gorgeous';
 }
 
 .curtains header {

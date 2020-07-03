@@ -1,0 +1,14 @@
+.panel {
+  height: 90vh;
+}
+
+.card {
+  background-color: #ccc;
+  display: flex;
+  text-align: center;
+  box-shadow: 0 2px 2px 0px black;
+}
+
+.card .col {
+  align-self: center;
+}

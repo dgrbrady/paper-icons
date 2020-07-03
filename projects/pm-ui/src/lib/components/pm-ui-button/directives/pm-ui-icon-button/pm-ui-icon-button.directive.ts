@@ -1,4 +1,9 @@
-import { AfterViewInit, Directive, ElementRef } from '@angular/core';
+import {
+  AfterViewInit,
+  Directive,
+  ElementRef,
+  HostListener,
+} from '@angular/core';
 
 @Directive({
   selector: '[pmIconButton]',
@@ -15,5 +20,19 @@ export class PmUiIconButtonDirective implements AfterViewInit {
     this.elRef.nativeElement.style.boxShadow = 'none';
     this.elRef.nativeElement.style.borderRadius = '25%';
     this.elRef.nativeElement.style.padding = '1px';
+  }
+  @HostListener('mouseup') onMouseUp() {
+    this.elRef.nativeElement.style.setProperty(
+      'background-color',
+      'transparent',
+      'important',
+    );
+  }
+  @HostListener('mouseleave') onMouseLeave() {
+    this.elRef.nativeElement.style.setProperty(
+      'box-shadow',
+      'none',
+      'important',
+    );
   }
 }

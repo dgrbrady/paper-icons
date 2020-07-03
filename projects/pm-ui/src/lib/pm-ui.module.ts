@@ -5,6 +5,7 @@ import { PaperMDialogModule } from './components/pm-ui-dialog/pm-ui-dialog.modul
 import { PmUiIconModule } from './components/pm-ui-icon/pm-ui-icon.module';
 import { PmUiSelectModule } from './components/pm-ui-select/pm-ui-select.module';
 import { PmUiTableModule } from './components/pm-ui-table/pm-ui-table.module';
+import { PmUiTextareaModule } from './components/pm-ui-textarea/pm-ui-textarea.module';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { PmUiTableModule } from './components/pm-ui-table/pm-ui-table.module';
     PmUiCurtainsModule,
     PmUiTableModule,
     PmUiSelectModule,
+    PmUiTextareaModule,
   ],
   exports: [
     PaperMDialogModule,
@@ -22,6 +24,7 @@ import { PmUiTableModule } from './components/pm-ui-table/pm-ui-table.module';
     PmUiCurtainsModule,
     PmUiTableModule,
     PmUiSelectModule,
+    PmUiTextareaModule,
   ],
 })
 export class PmUiModule {}

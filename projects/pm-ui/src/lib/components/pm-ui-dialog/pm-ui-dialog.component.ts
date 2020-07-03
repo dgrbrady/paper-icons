@@ -25,7 +25,7 @@ export class PmUiDialogComponent implements AfterViewInit {
   >;
   characters: string[] = [];
   private textSpeed = 30;
-  toneClassName = 'paper-m-dialog-tone-neutral';
+  toneClassName = 'pm-dialog-tone-neutral';
   private toneState: string;
   @Input() set speed(speed: 'slow' | 'normal' | 'fast' | number) {
     this.textSpeed =
@@ -41,7 +41,7 @@ export class PmUiDialogComponent implements AfterViewInit {
   }
 
   @Input() set tone(tone: string) {
-    this.toneClassName = `paper-m-dialog-tone-${tone}`;
+    this.toneClassName = `pm-dialog-tone-${tone}`;
     this.toneState = tone;
     this.cdRef.detectChanges();
   }
@@ -58,6 +58,10 @@ export class PmUiDialogComponent implements AfterViewInit {
 
   @HostListener('click')
   onClick() {
+    this.finishAnimation();
+  }
+
+  finishAnimation() {
     this.dialogContent.nativeElement
       .querySelectorAll('span')
       .forEach(span =>
@@ -67,25 +71,40 @@ export class PmUiDialogComponent implements AfterViewInit {
 
   wrapCharacters(text: string) {
     this.dialogContent.nativeElement.textContent = '';
+    // characters get added to this queue until a space is found,
+    // then all the characters in the queue are added to the DOM
+    let charQueue: HTMLSpanElement[] = [];
     [...text].forEach((char, index, array) => {
-      const span: HTMLSpanElement = this.renderer2.createElement('span');
-      this.renderer2.addClass(span, 'paper-m-dialog-char');
-      const textNode = this.renderer2.createText(
-        char === ' ' ? '\u0020' : char,
-      );
-      this.renderer2.appendChild(span, textNode);
-      this.renderer2.setStyle(span, 'display', 'none');
-      if (char === ' ' && index !== 0) {
-        this.renderer2.setStyle(span, 'margin-right', '10px');
-      }
+      // span containing a single character
+      const charSpan: HTMLSpanElement = this.renderer2.createElement('span');
+      this.renderer2.addClass(charSpan, 'pm-dialog-char');
+      charSpan.innerText = char;
+      this.renderer2.setStyle(charSpan, 'display', 'none');
       if (this.tone === 'scared') {
-        this.setScaredStyles(span);
+        this.setScaredStyles(charSpan);
       }
-      this.renderer2.appendChild(this.dialogContent.nativeElement, span);
       setTimeout(
-        () => this.renderer2.setStyle(span, 'display', 'inline-block'),
+        () => this.renderer2.setStyle(charSpan, 'display', 'inline-block'),
         index * this.textSpeed,
       );
+      // if the current character is a space, we know the word has ended
+      // and we need to append the word to the DOM and flush the queue
+      if (char === ' ' && index !== 0) {
+        charSpan.innerHTML = '&nbsp;';
+        const wordSpan: HTMLSpanElement = this.renderer2.createElement('span');
+        this.renderer2.addClass(wordSpan, 'pm-dialog-word');
+        charQueue.forEach((span, i, queue) =>
+          this.renderer2.appendChild(wordSpan, span),
+        );
+        charQueue = [];
+        // add the span that contains the space character to the word
+        this.renderer2.appendChild(wordSpan, charSpan);
+        // add the span that wraps the entire word to the DOM
+        this.renderer2.appendChild(this.dialogContent.nativeElement, wordSpan);
+      } else {
+        // if the current character is not a space, we add it to the queue
+        charQueue.push(charSpan);
+      }
     });
   }
 
@@ -95,8 +114,8 @@ export class PmUiDialogComponent implements AfterViewInit {
       const randomYSeed = Math.random() < 0.5 ? -1 : 1;
       const randomX = randomXSeed * Math.random() * 4;
       const randomY = randomYSeed * Math.random() * 4;
-      span.style.setProperty('--paper-m-dialog-scared-x', randomX + 'px');
-      span.style.setProperty('--paper-m-dialog-scared-y', randomY + 'px');
+      span.style.setProperty('--pm-dialog-scared-x', randomX + 'px');
+      span.style.setProperty('--pm-dialog-scared-y', randomY + 'px');
     }
     setInterval(setStyleProperties, 0);
   }

@@ -1,16 +1,27 @@
+@import '../../styles.css';
+
 :root {
-  --paper-m-dialog-scared-x: 10;
-  --paper-m-dialog-scared-y: 10;
+  --pm-dialog-scared-x: 10;
+  --pm-dialog-scared-y: 10;
 }
+
+.pm-dialog-wrapper {
+  width: 100%;
+  display: block;
+  white-space: pre;
+}
+
+.pm-dialog-char {
+  font-family: 'hey_gorgeous';
+  line-height: 31px;
+}
+
 @keyframes scared {
   100% {
-    transform: translate(
-      var(--paper-m-dialog-scared-x),
-      var(--paper-m-dialog-scared-y)
-    );
+    transform: translate(var(--pm-dialog-scared-x), var(--pm-dialog-scared-y));
   }
 }
 
-.paper-m-dialog-tone-scared .paper-m-dialog-char {
+.pm-dialog-tone-scared .pm-dialog-char {
   animation: scared cubic-bezier(0.76, 0.05, 0.86, 0.06) 0.15s infinite;
 }

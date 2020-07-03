@@ -1,22 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-@font-face {
-  font-family: 'hey_gorgeousregular';
-  src: url('assets/heygorgeous-webfont.woff2') format('woff2'),
-    url('assets/heygorgeous-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 body {
-  font-family: 'hey_gorgeousregular';
-  /* background-color: #cbf0ee; */
+  font-family: 'hey_gorgeous';
   background-image: linear-gradient(#cbf0eeb0, #cbf0eeb0),
     url('assets/mario_background.svg');
   background-size: auto;
-}
-
-paper-m-icon {
-  cursor: pointer;
+  line-height: 31px;
+  min-width: 320px;
+  overflow-x: scroll;
+  background-color: #cbf0eeb0;
 }
 
 h2.panel {
@@ -31,9 +23,10 @@ h2.panel ~ div.panel {
 .panel {
   background-color: #ebebeb;
   padding: 10px 5px;
-  margin: 0 15rem;
+  margin: 0 1rem;
   border: 0.5rem solid black;
   border-radius: 10px;
+  min-height: fit-content;
 }
 
 .message {
@@ -61,4 +54,94 @@ h2.panel ~ div.panel {
   height: auto;
   vertical-align: middle;
   box-shadow: inset 0px 0px 4px 0px #212020;
+}
+
+.flex-grid {
+  display: flex;
+  height: max-content;
+}
+
+.flex-grid.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-grid.gap *:not(:empty) {
+  margin: 10px;
+}
+
+.col {
+  flex: 1;
+}
+
+.col-12 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+}
+
+.col-11 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 91%;
+}
+
+.col-10 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 83%;
+}
+
+.col-9 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 75%;
+}
+
+.col-8 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 66%;
+}
+
+.col-7 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 58%;
+}
+
+.col-6 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50%;
+}
+
+.col-5 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 41%;
+}
+
+.col-4 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 33%;
+}
+
+.col-3 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 25%;
+}
+
+.col-2 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 16%;
+}
+
+.col-1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 8%;
 }

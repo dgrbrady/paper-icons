@@ -7,6 +7,7 @@ import { IconPageComponent } from 'projects/pm-ui-demo/src/app/icon-page/icon-pa
 import { IntroPageComponent } from 'projects/pm-ui-demo/src/app/intro-page/intro-page.component';
 import { SelectPageComponent } from 'projects/pm-ui-demo/src/app/select-page/select-page.component';
 import { TablePageComponent } from 'projects/pm-ui-demo/src/app/table-page/table-page.component';
+import { TextareaPageComponent } from 'projects/pm-ui-demo/src/app/textarea-page/textarea-page.component';
 
 export const routes: Routes = [
   { path: '', component: IntroPageComponent },
@@ -16,6 +17,7 @@ export const routes: Routes = [
   { path: 'icon', component: IconPageComponent },
   { path: 'select', component: SelectPageComponent },
   { path: 'table', component: TablePageComponent },
+  { path: 'textarea', component: TextareaPageComponent },
 ];
 
 @NgModule({
