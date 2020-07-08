@@ -15,11 +15,11 @@ import { map } from 'rxjs/operators';
 export type PmUiEditorAction = 'save' | 'copy' | 'delete' | 'clear';
 
 @Component({
-  selector: 'pm-textarea',
-  templateUrl: './pm-ui-textarea.component.html',
-  styleUrls: ['./pm-ui-textarea.component.css'],
+  selector: 'pm-editor',
+  templateUrl: './pm-ui-editor.component.html',
+  styleUrls: ['./pm-ui-editor.component.css'],
 })
-export class PmUiTextareaComponent implements OnInit {
+export class PmUiEditorComponent implements OnInit {
   @Input() text: string;
   @Input() name: string;
   @Output() actions = new EventEmitter<PmUiEditorAction>();

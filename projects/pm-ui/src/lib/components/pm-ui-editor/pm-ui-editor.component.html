@@ -20,7 +20,7 @@
   </div>
 </section>
 
-<textarea [name]="name" [id]="id" required [(ngModel)]="text"></textarea>
+<textarea [name]="name" [id]="id" [(ngModel)]="text"></textarea>
 
 <ng-container *ngIf="status$ | async as status">
   <div class="status-bar">

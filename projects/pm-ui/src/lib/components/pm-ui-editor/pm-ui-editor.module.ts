@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { PmUiButtonModule } from 'projects/pm-ui/src/lib/components/pm-ui-button';
 import { PmUiIconModule } from 'projects/pm-ui/src/lib/components/pm-ui-icon';
-import { PmUiTextareaComponent } from './pm-ui-textarea.component';
+import { PmUiEditorComponent } from './pm-ui-editor.component';
 
 @NgModule({
-  declarations: [PmUiTextareaComponent],
+  declarations: [PmUiEditorComponent],
   imports: [
     CommonModule,
     FormsModule,
@@ -15,6 +15,6 @@ import { PmUiTextareaComponent } from './pm-ui-textarea.component';
     PmUiButtonModule,
     RouterModule,
   ],
-  exports: [PmUiTextareaComponent],
+  exports: [PmUiEditorComponent],
 })
-export class PmUiTextareaModule {}
+export class PmUiEditorModule {}
