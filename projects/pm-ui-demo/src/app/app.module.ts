@@ -11,6 +11,7 @@ import { IconPageComponent } from './icon-page/icon-page.component';
 import { IntroPageComponent } from './intro-page/intro-page.component';
 import { SelectPageComponent } from './select-page/select-page.component';
 import { TablePageComponent } from './table-page/table-page.component';
+import { InputPageComponent } from './input-page/input-page.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TablePageComponent } from './table-page/table-page.component';
     SelectPageComponent,
     TablePageComponent,
     EditorPageComponent,
+    InputPageComponent,
   ],
   imports: [BrowserModule, PmUiModule, AppRoutingModule],
   bootstrap: [AppComponent],

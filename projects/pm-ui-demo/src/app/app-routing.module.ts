@@ -5,6 +5,7 @@ import { CurtainPageComponent } from 'projects/pm-ui-demo/src/app/curtain-page/c
 import { DialogPageComponent } from 'projects/pm-ui-demo/src/app/dialog-page/dialog-page.component';
 import { EditorPageComponent } from 'projects/pm-ui-demo/src/app/editor-page/editor-page.component';
 import { IconPageComponent } from 'projects/pm-ui-demo/src/app/icon-page/icon-page.component';
+import { InputPageComponent } from 'projects/pm-ui-demo/src/app/input-page/input-page.component';
 import { IntroPageComponent } from 'projects/pm-ui-demo/src/app/intro-page/intro-page.component';
 import { SelectPageComponent } from 'projects/pm-ui-demo/src/app/select-page/select-page.component';
 import { TablePageComponent } from 'projects/pm-ui-demo/src/app/table-page/table-page.component';
@@ -17,6 +18,7 @@ export const routes: Routes = [
   { path: 'select', component: SelectPageComponent },
   { path: 'table', component: TablePageComponent },
   { path: 'editor', component: EditorPageComponent },
+  { path: 'input', component: InputPageComponent },
 ];
 
 @NgModule({

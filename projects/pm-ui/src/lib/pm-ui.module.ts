@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { PmUiInputModule } from 'projects/pm-ui/src/lib/components/pm-ui-input';
 import { PmUiButtonModule } from './components/pm-ui-button/pm-ui-button.module';
 import { PmUiCurtainsModule } from './components/pm-ui-curtains/pm-ui-curtains.module';
 import { PmUiDialogModule } from './components/pm-ui-dialog/pm-ui-dialog.module';
@@ -16,6 +17,7 @@ import { PmUiTableModule } from './components/pm-ui-table/pm-ui-table.module';
     PmUiTableModule,
     PmUiSelectModule,
     PmUiEditorModule,
+    PmUiInputModule,
   ],
   exports: [
     PmUiDialogModule,
@@ -25,6 +27,7 @@ import { PmUiTableModule } from './components/pm-ui-table/pm-ui-table.module';
     PmUiTableModule,
     PmUiSelectModule,
     PmUiEditorModule,
+    PmUiInputModule,
   ],
 })
 export class PmUiModule {}
