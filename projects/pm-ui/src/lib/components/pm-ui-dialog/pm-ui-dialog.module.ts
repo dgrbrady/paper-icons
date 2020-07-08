@@ -8,4 +8,4 @@ import { PmUiDialogComponent } from './pm-ui-dialog.component';
   imports: [CommonModule, BrowserModule],
   exports: [PmUiDialogComponent],
 })
-export class PaperMDialogModule {}
+export class PmUiDialogModule {}

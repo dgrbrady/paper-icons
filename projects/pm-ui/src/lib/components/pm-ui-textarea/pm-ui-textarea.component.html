@@ -1,1 +1,29 @@
-<ng-content></ng-content>
+<section class="editor-top">
+  <label [for]="id">Editor</label>
+
+  <div class="editor-controls">
+    <a pm-button pmIconButton class="email-btn" [href]="getMailToLink()">
+      <pm-icon name="old_letter" size="medium"></pm-icon>
+    </a>
+    <button pm-button pmIconButton class="clear-btn" (click)="clearText()">
+      <pm-icon name="pow_block" size="medium"></pm-icon>
+    </button>
+    <button pm-button pmIconButton class="delete-btn" (click)="deleteText()">
+      <pm-icon name="power_rush" size="medium"></pm-icon>
+    </button>
+    <button pm-button pmIconButton class="copy-btn" (click)="copyText()">
+      <pm-icon name="routing_slip" size="medium"></pm-icon>
+    </button>
+    <button pm-button pmIconButton class="save-btn" (click)="saveText()">
+      <pm-icon name="data_disk" size="medium" class="save-icon"></pm-icon>
+    </button>
+  </div>
+</section>
+
+<textarea [name]="name" [id]="id" required [(ngModel)]="text"></textarea>
+
+<ng-container *ngIf="status$ | async as status">
+  <div class="status-bar">
+    {{ status }}
+  </div>
+</ng-container>

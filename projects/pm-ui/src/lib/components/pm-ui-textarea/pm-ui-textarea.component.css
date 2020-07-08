@@ -1,10 +1,11 @@
 @import '../../styles.css';
 
-:host:invalid {
+textarea:invalid {
   border-left: 5px solid red;
 }
 
-:host {
+textarea {
+  line-height: inherit;
   background-attachment: local;
   background-image: linear-gradient(to right, white 10px, transparent 10px),
     linear-gradient(to left, white 10px, transparent 10px),
@@ -18,8 +19,77 @@
   padding: 8px 10px;
   width: stretch;
   overflow: auto;
-  border-left: 5px transparent solid;
+  border-left: 5px rgb(45, 45, 45) solid;
+  resize: vertical;
 }
-:host:focus {
+
+textarea:focus {
   border-left: 5px rgb(48, 113, 255) solid;
+}
+
+.editor-top {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  border: rgb(45, 45, 45) solid 2px;
+  border-bottom: none;
+  padding-bottom: 5px;
+}
+
+label {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: inline-block;
+}
+
+.editor-controls {
+  margin-top: 3px;
+  float: right;
+}
+
+.editor-controls > .pm-icon-btn {
+  position: relative;
+}
+
+.editor-controls > .pm-icon-btn:hover::after {
+  position: absolute;
+  background-color: antiquewhite;
+  border-color: rgb(45, 45, 45);
+  border-style: solid;
+  border-width: 2px;
+  top: 30px;
+  right: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.clear-btn:hover::after {
+  content: 'Clear Text';
+}
+
+.copy-btn:hover::after {
+  content: 'Copy Text';
+}
+
+.delete-btn:hover::after {
+  content: 'Delete Text';
+}
+
+.email-btn:hover::after {
+  content: 'Email Text';
+}
+
+.save-btn:hover::after {
+  content: 'Save Text';
+}
+
+.status-bar {
+  margin-top: -7px;
+  border: rgb(45, 45, 45) solid 2px;
+  padding-left: 10px;
+  background-color: navy;
+  font-size: small;
+  color: #ccc;
 }
