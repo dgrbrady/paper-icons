@@ -22,5 +22,8 @@
     "packagr": "ng-packagr -p ng-package.json",
     "echo": "echo hello"
   },
-  "private": false
+  "private": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
 }
