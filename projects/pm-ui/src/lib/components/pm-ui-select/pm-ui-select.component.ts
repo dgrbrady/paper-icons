@@ -27,7 +27,7 @@ export class PmUiSelectComponent implements OnInit {
   @ViewChild('wrapper', { static: true }) wrapper: ElementRef<HTMLElement>;
   showOptions = false;
   constructor(
-    @Inject(DOCUMENT) private document: Document,
+    @Inject(DOCUMENT) private document: any,
     private renderer2: Renderer2,
     private cdRef: ChangeDetectorRef,
   ) {}
