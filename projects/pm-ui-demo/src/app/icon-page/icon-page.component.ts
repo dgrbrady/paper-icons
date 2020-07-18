@@ -24,7 +24,7 @@ export class IconPageComponent implements OnInit {
 
   @ViewChild('clipboardDialog', { static: true })
   clipboardDialog: PmUiDialogComponent;
-  @ViewChild('message', { static: false }) message: ElementRef<HTMLDivElement>;
+  @ViewChild('message') message: ElementRef<HTMLDivElement>;
 
   constructor(@Inject(DOCUMENT) private document: Document) {}
 
