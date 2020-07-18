@@ -1,7 +1,6 @@
 import {
   AfterViewInit,
   ChangeDetectionStrategy,
-  ChangeDetectorRef,
   Component,
   ElementRef,
   HostListener,
@@ -25,6 +24,7 @@ export class PmUiDialogComponent implements AfterViewInit {
   >;
   characters: string[] = [];
   private textSpeed = 30;
+  private timeouts: number[] = [];
   toneClassName = 'pm-dialog-tone-neutral';
   private toneState: string;
   @Input() set speed(speed: 'slow' | 'normal' | 'fast' | number) {
@@ -43,14 +43,13 @@ export class PmUiDialogComponent implements AfterViewInit {
   @Input() set tone(tone: string) {
     this.toneClassName = `pm-dialog-tone-${tone}`;
     this.toneState = tone;
-    this.cdRef.detectChanges();
   }
 
   get tone() {
     return this.toneState;
   }
 
-  constructor(private renderer2: Renderer2, private cdRef: ChangeDetectorRef) {}
+  constructor(private renderer2: Renderer2) {}
 
   ngAfterViewInit() {
     this.wrapCharacters(this.dialogContent.nativeElement.textContent);
@@ -83,15 +82,22 @@ export class PmUiDialogComponent implements AfterViewInit {
       if (this.tone === 'scared') {
         this.setScaredStyles(charSpan);
       }
-      setTimeout(
+      const charTimeout = setTimeout(
         () => this.renderer2.setStyle(charSpan, 'display', 'inline-block'),
         index * this.textSpeed,
       );
+      this.timeouts.push(charTimeout);
       // if the current character is a space, we know the word has ended
       // and we need to append the word to the DOM and flush the queue
       if (char === ' ' && index !== 0) {
         charSpan.innerHTML = '&nbsp;';
         const wordSpan: HTMLSpanElement = this.renderer2.createElement('span');
+        const wordTimeout = setTimeout(
+          () => this.renderer2.setStyle(wordSpan, 'display', 'inline-block'),
+          index * this.textSpeed,
+        );
+        this.timeouts.push(wordTimeout);
+
         this.renderer2.addClass(wordSpan, 'pm-dialog-word');
         charQueue.forEach((span, i, queue) =>
           this.renderer2.appendChild(wordSpan, span),
@@ -121,17 +127,22 @@ export class PmUiDialogComponent implements AfterViewInit {
   }
 
   restart() {
+    if (this.timeouts.length) {
+      this.timeouts.forEach(timeout => clearTimeout(timeout));
+      this.timeouts = [];
+    }
     this.dialogContent.nativeElement
-      .querySelectorAll('span')
+      .querySelectorAll('span.pm-dialog-char')
       .forEach((span, index) => {
         this.renderer2.setStyle(span, 'display', 'none');
         if (this.tone === 'scared') {
           this.setScaredStyles(span);
         }
-        setTimeout(
+        const timeout = setTimeout(
           () => this.renderer2.setStyle(span, 'display', 'inline-block'),
           index * this.textSpeed,
         );
+        this.timeouts.push(timeout);
       });
   }
 }
