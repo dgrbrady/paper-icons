@@ -12,6 +12,7 @@ import { IntroPageComponent } from './intro-page/intro-page.component';
 import { SelectPageComponent } from './select-page/select-page.component';
 import { TablePageComponent } from './table-page/table-page.component';
 import { InputPageComponent } from './input-page/input-page.component';
+import { LazySusanPageComponent } from './lazy-susan-page/lazy-susan-page.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { InputPageComponent } from './input-page/input-page.component';
     TablePageComponent,
     EditorPageComponent,
     InputPageComponent,
+    LazySusanPageComponent,
   ],
   imports: [BrowserModule, PmUiModule, AppRoutingModule],
   bootstrap: [AppComponent],
