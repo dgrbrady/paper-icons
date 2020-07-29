@@ -2,8 +2,8 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { PmUiButtonModule } from 'projects/pm-ui/src/lib/components/pm-ui-button';
-import { PmUiIconModule } from 'projects/pm-ui/src/lib/components/pm-ui-icon';
+import { PmUiButtonModule } from '../pm-ui-button/pm-ui-button.module';
+import { PmUiIconModule } from '../pm-ui-icon/pm-ui-icon.module';
 import { PmUiEditorComponent } from './pm-ui-editor.component';
 
 @NgModule({

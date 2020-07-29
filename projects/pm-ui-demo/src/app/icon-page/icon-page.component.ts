@@ -6,13 +6,13 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
-import anime from 'animejs';
 import {
   PmUiBadgeIcons,
   PmUiDialogComponent,
   PmUiIconComponent,
   PmUiItemIcons,
-} from 'projects/pm-ui/src/public-api';
+} from '@dgrbrady/pm-ui';
+import anime from 'animejs';
 
 @Component({
   templateUrl: './icon-page.component.html',
