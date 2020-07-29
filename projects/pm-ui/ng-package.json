@@ -3,6 +3,7 @@
   "dest": "../../dist/pm-ui",
   "assets": ["src/lib/styles.css", "src/lib/assets/*"],
   "lib": {
-    "entryFile": "src/public-api.ts"
+    "entryFile": "src/public-api.ts",
+    "cssUrl": "inline"
   }
 }

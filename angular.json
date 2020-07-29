@@ -23,7 +23,10 @@
               "projects/pm-ui-demo/src/favicon.ico",
               "projects/pm-ui-demo/src/assets"
             ],
-            "styles": ["projects/pm-ui-demo/src/styles.css"],
+            "styles": [
+              "projects/pm-ui-demo/src/styles.css",
+              "./node_modules/@dgrbrady/pm-ui/src/lib/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {

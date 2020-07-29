@@ -5,7 +5,7 @@ import {
   Input,
   OnInit,
 } from '@angular/core';
-import { PmUiTableComponent } from 'projects/pm-ui/src/lib/components/pm-ui-table/pm-ui-table.component';
+import { PmUiTableComponent } from '../pm-ui-table.component';
 
 @Component({
   selector: 'pm-paginator',
