@@ -10,8 +10,8 @@ import {
   QueryList,
   ViewChild,
 } from '@angular/core';
-import anime from 'animejs';
-import * as Three from 'three';
+// import anime from 'animejs';
+// import * as Three from 'three';
 import { PmUiLazySusanItemDirective } from './directives/pm-ui-lazy-susan-item.directive';
 
 @Component({
@@ -27,10 +27,12 @@ export class PmUiLazySusanComponent
   @ContentChildren(PmUiLazySusanItemDirective) content: QueryList<
     PmUiLazySusanItemDirective
   >;
-  scene: Three.Scene;
+
+  /* Commented out to fix library build issues
+   scene: Three.Scene;
   camera: Three.PerspectiveCamera;
   renderer: Three.WebGL1Renderer;
-  animationId: number;
+ */ animationId: number;
 
   constructor() {}
 
@@ -50,11 +52,13 @@ export class PmUiLazySusanComponent
       })
       .filter(item => !!item)
       .map(item => item.element.nativeElement);
+    /* Commented out to fix library build issues
     anime({
       targets: frontItems,
       scale: 1.25,
       duration: 1,
     });
+    */
   }
   // drawEllipse(ctx, cx, cy, rx, ry) {
   //   ctx.beginPath();
@@ -66,16 +70,19 @@ export class PmUiLazySusanComponent
 
   ngOnDestroy(): void {
     cancelAnimationFrame(this.animationId);
+    /* Commented out to fix library build issues
     this.scene.dispose();
     this.renderer.dispose();
     document.body.removeChild(this.renderer.domElement);
     this.scene = null;
     this.renderer = null;
     this.camera = null;
+    */
   }
 
   private three() {
     // Three.js
+    /* Commented out to fix library build issues
     this.scene = new Three.Scene();
     this.camera = new Three.PerspectiveCamera(
       50,
@@ -139,6 +146,7 @@ export class PmUiLazySusanComponent
       this.renderer.render(this.scene, this.camera);
     };
     animate();
+    */
   }
   getEllipsePoints(cx, cy, rx, ry, count) {
     const points = [];

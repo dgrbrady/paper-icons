@@ -1,5 +1,3 @@
-@import '../../styles.css';
-
 textarea:invalid {
   border-left: 5px solid red;
 }
