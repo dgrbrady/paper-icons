@@ -9,8 +9,8 @@
     "url": "https://github.com/dgrbrady/paper-icons"
   },
   "peerDependencies": {
-    "@angular/common": "^8.2.0",
-    "@angular/core": "^8.2.0"
+    "@angular/common": "^10.0.4",
+    "@angular/core": "^10.0.4"
   },
   "scripts": {
     "ng": "ng",
