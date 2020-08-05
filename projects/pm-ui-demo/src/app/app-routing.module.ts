@@ -6,6 +6,7 @@ import { DialogPageComponent } from 'projects/pm-ui-demo/src/app/dialog-page/dia
 import { EditorPageComponent } from 'projects/pm-ui-demo/src/app/editor-page/editor-page.component';
 import { IconPageComponent } from 'projects/pm-ui-demo/src/app/icon-page/icon-page.component';
 import { InputPageComponent } from 'projects/pm-ui-demo/src/app/input-page/input-page.component';
+import { InstallationPageComponent } from 'projects/pm-ui-demo/src/app/installation-page/installation-page.component';
 import { IntroPageComponent } from 'projects/pm-ui-demo/src/app/intro-page/intro-page.component';
 import { LazySusanPageComponent } from 'projects/pm-ui-demo/src/app/lazy-susan-page/lazy-susan-page.component';
 import { SelectPageComponent } from 'projects/pm-ui-demo/src/app/select-page/select-page.component';
@@ -20,6 +21,7 @@ export const routes: Routes = [
   { path: 'table', component: TablePageComponent },
   { path: 'editor', component: EditorPageComponent },
   { path: 'input', component: InputPageComponent },
+  { path: 'installation', component: InstallationPageComponent },
   { path: 'lazy-susan', component: LazySusanPageComponent },
 ];
 
